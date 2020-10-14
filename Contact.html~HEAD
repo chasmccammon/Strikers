@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="StrikersCSS.css" >
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Services</title>
+    <title>Contact</title>
 </head>
 <body>
         <div class="bodytext">
@@ -19,7 +18,7 @@
                </div>
                 <div class="navbar">
                         <a href="index.html">About</a>
-                        <a href="#">Services</a>
+                        <a href="Services.html">Services</a>
                         <div class="dropdown">
                           <button class="dropbtn">Products
                             <i class="fa fa-caret-down"></i>
@@ -30,10 +29,10 @@
                             <a href="#">Etc.</a>
                           </div>
                         </div>
-                        <a href="Contact.html">Contact</a>
+                        <a href="#">Contact</a>
                         </div>
                         <div class="content" >
-                            <h1 class="CentreText">Services Page</h1>
+                            <h1 class="CentreText">Contact Page</h1>
                             <p class="CentreText">Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text 
                                 Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text 
                                 Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text 
@@ -44,17 +43,4 @@
                      
             </div>
 </body>
-=======
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Services</title>
-</head>
-<body>
-    <h1>Services!</h1>
-</body>
->>>>>>> 54a5546a71d17b19ab33e7e3173cfc7aa392255c
 </html>
