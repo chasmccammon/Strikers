@@ -112,3 +112,10 @@
     font-family: Impact, Charcoal, sans-serif; color:#09435B; letter-spacing: 4px; font-size: 40px;
   }
 
+  @media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) 
+  {
+    .title{ color:#D9DADC};
+  }
