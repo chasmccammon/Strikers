@@ -123,7 +123,6 @@
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-    display:hidden;
   }
   
   /* The navigation menu links */
@@ -134,7 +133,6 @@
     color: #818181;
     display: block;
     transition: 0.3s;
-    display:hidden;
   }
 
   .sidenav a:hover {
@@ -178,7 +176,7 @@
   and (device-height: 640px) 
   /* and (-webkit-device-pixel-ratio: 4) */
   {
-    div.mySidenav {display:block };
+    div.sidenav {display:block };
   }
 
 
