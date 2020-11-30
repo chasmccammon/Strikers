@@ -117,5 +117,6 @@
   and (device-height: 640px) 
   /* and (-webkit-device-pixel-ratio: 4) */
   {
-    .title{ margin-left:90px;color:#db0a95;letter-spacing: 4px; font-size: 32px;};
+    .title{ margin-left:90px;color:#09435B;letter-spacing: 4px; font-size: 20px;};
+    .navbar{display:hide;}
   }
