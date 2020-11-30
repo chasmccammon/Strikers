@@ -120,3 +120,12 @@
     .title{ margin-left:90px;color:#09435B;letter-spacing: 4px; font-size: 20px;};
     div.navbar {display:none;};
   }
+
+  @media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  /* and (-webkit-device-pixel-ratio: 4) */
+  {
+    div.navbar {display:none;};
+  }
+
