@@ -193,6 +193,11 @@
   {
     div.main{position: relative; bottom:30px;}
   }
+
+  @media screen and (min-width: 900px)
+  {
+    div.main{ bottom:30px;}
+  }
   
 
   .hamburger
