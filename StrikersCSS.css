@@ -2,7 +2,6 @@
     overflow: hidden;
     background-color: #09435B;
     font-family: Arial;
-    position: relative;
     
     
   }
@@ -89,7 +88,6 @@
     display: inline-block;
     
     background-color: white;
-    position: relative;
   }
   .CentreText
   {
