@@ -190,16 +190,7 @@
     .hamburger{display:none;};
   }
 
-  @media screen and (min-width:900px)
-  {
-    div.navbar{position: relative;}
-  }
 
-  @media screen and (min-width:900px)
-  {
-    div.navbar{bottom:30px;};
-  }
-  
   
 
   .hamburger
