@@ -90,6 +90,8 @@
     display: inline-block;
     
     background-color: white;
+    position: relative;
+    bottom:20px;
   }
   .CentreText
   {
