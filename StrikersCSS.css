@@ -167,14 +167,9 @@
   and (max-width: 600px) 
   /* and (-webkit-device-pixel-ratio: 4) */
   {
-    div.heading{width:100%;};
+    div.bodytext{width:100%;};
   }
-  @media screen 
-  and (max-width: 600px) 
-  /* and (-webkit-device-pixel-ratio: 4) */
-  {
-    div.content{width:100%;};
-  }
+
 
 
   @media screen 
