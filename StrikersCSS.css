@@ -163,7 +163,12 @@
     .title{ margin-left:90px;color:#09435B;letter-spacing: 4px; font-size: 20px;};
   }
 
- 
+  @media screen 
+  and (max-width: 600px) 
+  /* and (-webkit-device-pixel-ratio: 4) */
+  {
+    div.bodytext{width:100%;};
+  }
 
   @media screen 
   and (max-width: 600px) 
