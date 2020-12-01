@@ -191,12 +191,12 @@
 
   @media screen and (min-width: 900px)
   {
-    div.main{position: relative; bottom:30px;}
+    div.navbar{position: relative;};
   }
 
   @media screen and (min-width: 900px)
   {
-    div.main{ bottom:300px;}
+    div.navbar{ bottom:300px;};
   }
   
 
