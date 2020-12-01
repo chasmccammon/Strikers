@@ -71,7 +71,7 @@
 
   .bodytext
   {
-    width:100%;
+    width:80%;
     
     margin:auto;
     background-color: #D9DADC;
@@ -152,6 +152,8 @@
   .main {
     transition: margin-left .5s;
     padding: 20px;
+    position: relative;
+    bottom:10px;
   }
 
   @media screen 
