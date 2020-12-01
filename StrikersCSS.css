@@ -90,7 +90,7 @@
     
     background-color: white;
     position: relative;
-    bottom:30px!important;
+    bottom:10px!important;
   }
   .CentreText
   {
@@ -99,7 +99,7 @@
   }
   .heading
   {
-    height:70px;
+    height:100px;
     margin:auto;
     overflow: hidden;
   }
