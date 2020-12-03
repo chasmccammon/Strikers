@@ -68,6 +68,14 @@
   .dropdown:hover .dropdown-content {
     display: block;
   }
+  .largelogo
+  {
+    height:65px;
+    width:260px;
+    position: relative;
+    left:805px;
+    bottom:230px;
+  }
 
   .bodytext
   {
@@ -85,6 +93,15 @@
     background-color: #D9DADC;
 
   }
+  .banner
+  {
+    width:100%;
+    height:350px;
+    background-image: url(facebook.png);
+    background-repeat: no-repeat;
+    background-size: cover;    
+  }
+  
   .content
   {
     display: inline-block;
@@ -101,7 +118,7 @@
   {
     height:100px;
     margin:auto;
-    overflow: hidden;
+    overflow: hidden; 
   }
   .logo
   {
@@ -111,8 +128,20 @@
   }
   .title
   {
-    margin-left: 90px;
-    font-family: Impact, Charcoal, sans-serif; color:#09435B; letter-spacing: 4px; font-size: 40px;
+    margin-left: 0px;
+    font-family: 'Arial Black', sans-serif; color:#09435B; letter-spacing: 1px; font-size: 50px;
+    position: relative;
+    bottom:20px;
+  }
+
+  .install
+  {
+    margin-left: 0px;
+    font-family: 'Arial ', sans-serif; color:#1FA6D6; letter-spacing: 1px; font-size: 50px;
+    position: relative;
+    bottom:111px;
+    left: 305px;
+    
   }
 
   .sidenav {
