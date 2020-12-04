@@ -298,7 +298,9 @@
   {
     .main{width:110%;bottom: 110px; }
   }
-
+  #page {
+    visibility: visible !important;
+    }
 
 
 
