@@ -380,7 +380,7 @@
   }
   @media screen and (max-width:600px)
   {
-    .main{width:100%;bottom: 125px;};
+    .main{width:100%;bottom: 130px;};
   }
 
   @media screen and (max-width:360px)
