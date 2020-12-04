@@ -270,7 +270,7 @@
   {
     .hamburger{display: flex;
       position: relative;
-      bottom: 15px;
+      bottom: 18px;
       z-index: 101;
       right: -3px;};
 
