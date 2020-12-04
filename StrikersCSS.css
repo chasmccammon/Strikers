@@ -296,12 +296,12 @@
 
 }
 
-@media screen and (min-width:350px) and
+@media screen and (min-width:340px) and
 (max-width:400px)
 {
   .smallogo{left:73%!important;};
-
-
+  .title{right:73px;};
+  .install{left:0%};
 }
 
 
