@@ -3,6 +3,7 @@
     background-color: #09435B;
     font-family: Arial;
     width:100%;
+    height:45px;
     
   }
   
@@ -155,6 +156,8 @@
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    z-index: 101;
+
   }
   
   /* The navigation menu links */
@@ -186,6 +189,19 @@
     bottom:10px;
   }
 
+  .menu
+  {
+    position: relative;
+    left:60px;
+    font-family: Arial, sans-serif;
+    color: #f1f1f1;
+    top:50px
+  }
+  .smallogo
+  {
+    height:100px;
+    width:100px;
+  }
   @media screen 
   and (max-width:600px)
   /* and (-webkit-device-pixel-ratio: 4) */
@@ -200,13 +216,27 @@
     div.bodytext{width:120%;};
   }
 
+  @media screen 
+  and (max-width: 600px) 
+  /* and (-webkit-device-pixel-ratio: 4) */
+  {
+    .hamburger{top:-10px;left:15px;};
+  }
+
 
 
   @media screen 
   and (max-width: 600px) 
   /* and (-webkit-device-pixel-ratio: 4) */
   {
-    div.navbar {display:none;};
+    div.navbar a {display:none;}; 
+  }
+
+  @media screen 
+  and (max-width: 600px) 
+  /* and (-webkit-device-pixel-ratio: 4) */
+  {
+    div.dropdown button{display:none;};
   }
 
   @media screen 
@@ -216,22 +246,72 @@
     div.sidenav {display:block };
   }
 
-  @media screen and (min-width: 900px)
+
+
+  @media screen and (min-width: 600px)
   {
     div.sidenav{display:none;};
   }
 
-  @media screen and (min-width: 900px)
+  @media screen and (min-width: 600px)
   {
     .hamburger{display:none;};
   }
+
+  @media screen and (min-width: 600px)
+  {
+    .menu{display:none;};
+  }
+  
+  @media screen and (max-width: 600px)
+  {
+    .heading{height: 150px;width:90%;};
+  }
+  @media screen and (max-width: 600px)
+  {
+    .title{right:90px;bottom:25px;letter-spacing: .5px; font-size:300%;};
+  }
+
+  @media screen and (max-width: 600px)
+  {
+    .install{left:0%;letter-spacing: -1px; font-size: 250%; bottom:60px;   z-index: 100;    };
+  }
+
+  @media screen and (max-width:600px)
+  {
+    .largelogo{display:none;};
+  }
+
+  @media screen and (max-width:600px)
+  {
+    .smallogo{    display: block;
+      z-index: 100;
+      position: relative;
+      bottom: 186px;
+      left: 70%;};
+  }
+  @media screen and (max-width:600px)
+  {
+    .bodytext{width:100%;}
+  }
+  @media screen and (max-width:600px)
+  {
+    .main{width:110%;bottom: 110px; }
+  }
+
+
+
+
+
+
 
 
   
 
   .hamburger
   {
-
+    position: relative;
+    z-index: 100;
   }
 
  
