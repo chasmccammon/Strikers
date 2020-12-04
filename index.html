@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>
 
     <link rel="stylesheet" href="StrikersCSS.css" >
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -32,11 +32,11 @@
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times; </a>
     <a href="#">About</a>
     <a href="Services.html">Services</a>
-    <div class="dropdown">
-      <button class="dropbtn">Products
+    <div class="sidedropdown">
+      <button class="sidedropbtn">Products
         <i class="fa fa-caret-down"></i>
       </button>
-      <div class="dropdown-content">
+      <div class="sidedropdown-content">
         <a href="handles.html">Handles</a> 
         <a href="locks.html">Locks</a>
         <a href="#">Etc.</a>
@@ -47,7 +47,7 @@
   </div>
   
   <!-- Use any element to open the sidenav -->
-  <span class="hamburger" onclick="openNav()"> <img src="transparentHam.png" alt="hamburger" height=45px; width=45px;></span>
+  <span class="hamburger" onclick="openNav()"> <img src="transparentHam.png" class="hamburger" alt="hamburger" height=45px; width=45px;></span>
   
   <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
   <div class="main">
@@ -86,6 +86,7 @@
           
          
 
+</div>
 </div>
 </body>
 </html>

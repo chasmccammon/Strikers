@@ -22,6 +22,40 @@
     float: left;
     overflow: hidden;
   }
+  .sidedropdown {
+    float: left;
+    overflow: hidden;
+  }
+  .sidedropdown .sidedropbtn {
+    font-size: 22px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 30px ;
+    background-color: inherit;
+    font-family: Arial,  sans-serif; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  .sidedropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #09435B;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .sidedropdown-content a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-family:Arial,  sans-serif;
+    font-size: 16px;
+  }
   
   /* Dropdown button */
   .dropdown .dropbtn {
@@ -74,13 +108,13 @@
     height:65px;
     width:260px;
     position: relative;
-    left:805px;
-    bottom:230px;
+    left:77%;
+    bottom:250px;
   }
 
   .bodytext
   {
-    width:80%;
+    width:90%;
     
     margin:auto;
     background-color: #D9DADC;
@@ -92,7 +126,8 @@
   {
     /*background-color: #232423; */
     background-color: #D9DADC;
-
+    margin: 0%!important;
+    margin-right: 0%!important;
   }
   .banner
   {
@@ -140,7 +175,7 @@
     margin-left: 0px;
     font-family: 'Arial ', sans-serif; color:#1FA6D6; letter-spacing: 1px; font-size: 50px;
     position: relative;
-    bottom:111px;
+    bottom:114px;
     left: 305px;
     
   }
@@ -156,18 +191,19 @@
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-    z-index: 101;
+    z-index: 150;
 
   }
   
   /* The navigation menu links */
   .sidenav a {
-    padding: 8px 8px 8px 32px;
+    padding: 20px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
     color: #fcfcfc;
     display: block;
     transition: 0.3s;
+    font-family: Arial,  sans-serif;
   }
 
   .sidenav a:hover {
@@ -187,6 +223,7 @@
   .main {
     position: relative;
     bottom:10px;
+    margin: center;
   }
 
   .menu
@@ -202,6 +239,11 @@
     height:100px;
     width:100px;
   }
+  @media screen and (max-width:600px)
+    {
+      .body{ max-width: 580px;};
+    }
+
   @media screen 
   and (max-width:600px)
   /* and (-webkit-device-pixel-ratio: 4) */
@@ -213,14 +255,19 @@
   and (max-width: 600px) 
   /* and (-webkit-device-pixel-ratio: 4) */
   {
-    div.bodytext{width:120%;};
+    div.bodytext{overflow:hidden;};
   }
 
   @media screen 
   and (max-width: 600px) 
   /* and (-webkit-device-pixel-ratio: 4) */
   {
-    .hamburger{top:-10px;left:15px;};
+    .hamburger{display: flex;
+      position: relative;
+      bottom: 8px;
+      z-index: 101;
+      right: -3px;};
+
   }
 
 
@@ -262,19 +309,23 @@
   {
     .menu{display:none;};
   }
+  @media screen and (max-width:600px)
+    {
+      .banner{background-image: url(smallbanner.PNG);height:200px;};
+    }
   
   @media screen and (max-width: 600px)
   {
-    .heading{height: 150px;width:90%;};
+    .heading{height: 150px;width:100%;};
   }
   @media screen and (max-width: 600px)
   {
-    .title{right:90px;bottom:25px;letter-spacing: .5px; font-size:300%;};
+    .title{right:70px;bottom:25px;letter-spacing: .5px; font-size:280%;};
   }
 
   @media screen and (max-width: 600px)
   {
-    .install{left:0%;letter-spacing: -1px; font-size: 250%; bottom:60px;   z-index: 100;    };
+    .install{left:5%;letter-spacing: -1px; font-size: 230%; bottom:60px;   z-index: 100;    };
   }
 
   @media screen and (max-width:600px)
@@ -287,8 +338,8 @@
     .smallogo{    display: block;
       z-index: 100;
       position: relative;
-      bottom: 186px;
-      left: 70%;};
+      bottom: 180px;
+      left: 73%;};
   }
   @media screen and (max-width:600px)
   {
@@ -296,13 +347,18 @@
   }
   @media screen and (max-width:600px)
   {
-    .main{width:110%;bottom: 110px; }
+    .main{width:100%;bottom: 110px;};
   }
-  #page {
-    visibility: visible !important;
+
+  @media screen and (max-width:360px)
+  {
+    .smallogo{    display: none;
+
     }
 
+    
 
+    
 
 
 
@@ -313,9 +369,10 @@
   .hamburger
   {
     position: relative;
-    z-index: 100;
+    z-index: 105;
   }
 
  
 
 
+  }
