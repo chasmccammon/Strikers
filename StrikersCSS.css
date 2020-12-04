@@ -270,7 +270,7 @@
   {
     .hamburger{display: flex;
       position: relative;
-      bottom: 8px;
+      bottom: 15px;
       z-index: 101;
       right: -3px;};
 
@@ -278,7 +278,7 @@
   @media screen and (min-width:1000px) and
   (max-width:1500px)
 {
-  .largelogo{ left:75%; width:230px;
+  .largelogo{ left:80%; width:230px;
 
   };
 }
@@ -299,7 +299,7 @@
 @media screen and (min-width:350px) and
 (max-width:400px)
 {
-  .smallogo{left:75%!important;};
+  .smallogo{left:73%!important;};
 
 
 }
@@ -380,7 +380,7 @@
   }
   @media screen and (max-width:600px)
   {
-    .main{width:100%;bottom: 110px;};
+    .main{width:100%;bottom: 125px;};
   }
 
   @media screen and (max-width:360px)
