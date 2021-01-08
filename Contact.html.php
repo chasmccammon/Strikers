@@ -5,6 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
+        <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> 
+
         <title>Strikers Installation | Home</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/img/strikerslogoSmall.PNG" />
@@ -85,9 +87,7 @@
                     </form>
                 
                     
-                    <script language=”JavaScript”>
-
-                        var frmvalidator = new Validator(“contactform”); frmvalidator.addValidation(“name”,”req”,”Please provide your name”); frmvalidator.addValidation(“email”,”req”,”Please provide your email”); frmvalidator.addValidation(“email”,”email”, “Please enter a valid email address”); </script>
+                    
             </div>
         </section>
         <!-- Footer-->
