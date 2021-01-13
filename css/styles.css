@@ -67,6 +67,7 @@ body {
   color: #212529;
   text-align: left;
   background-color: #fff;
+  overflow-x: hidden;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -10427,6 +10428,7 @@ form {
   opacity: .9;
   width:80%;
   border-radius: 8px;
+  padding-top: 0px;
 }
 
  #name  {
@@ -10481,7 +10483,10 @@ form {
   font-size: 20px;
   position:relative;
   bottom:20px;
-  left:40%;
+  left:52.5%;
 }
+.paddowncontact {
+  padding-top: 5%;
 
+}
 
