@@ -10415,3 +10415,73 @@ height:30px;
   position: relative;
   left: 22px;
 }
+
+#quotemessage {
+  padding-left: 15%;
+  padding-top: 5%;
+}
+
+form {
+  margin: auto;
+  background-color: #09435B ;
+  opacity: .9;
+  width:80%;
+  border-radius: 8px;
+}
+
+ #name  {
+  position:relative;
+  left:40.5%;
+  top:2px;
+}
+
+ #email {
+  position:relative;
+  left:40.5%;
+  bottom: 15px;
+
+}
+
+ #message {
+  position:relative;
+  left:40.5%;
+  bottom:35px;
+}
+
+#customername {
+  position:relative;
+  left: 23%;
+  top: 40px;
+  color: white;
+}
+#customeremail
+{
+  position:relative;
+  left:18.5%;
+  top: 20px;
+  color: white;
+
+}
+#customermessage {
+
+  position:relative;
+  left: 26.5%;
+  bottom: 5px;
+  color: white;
+
+}
+
+#submit {
+  background-color: #1FA6D6; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  position:relative;
+  bottom:20px;
+  left:40%;
+}
+
+
