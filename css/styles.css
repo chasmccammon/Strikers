@@ -360,11 +360,11 @@ template {
 }
 
 h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6 {
-  margin-bottom: 0.5rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-weight: 700;
-  line-height: 1.2;
+.h1, .h2, .h3, .h4, .h5, .h6  {
+  margin-bottom: 0.5rem!important;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"!important;
+  font-weight: 700!important;
+  line-height: 1.2!important;
 }
 
 h1, .h1 {
@@ -10069,6 +10069,7 @@ h3 {
 }
 #mainNav .navbar-nav li.nav-item a.nav-link {
   color: #09435B;
+  padding-right:30%!important;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
   color: #1FA6D6;
@@ -10275,19 +10276,49 @@ form .row:first-child .floating-label-form-group {
   width:600px;height:160px;
   opacity:.7;
 }
+.bannertextHS
+{
+  background-color: #09435B;
+  /* #1FA6D6; */
+  position:relative;
+  left:55%;
+  top:30%;
+  width:500px;height:130px;
+  opacity:.7;
+}
+.bannertextHS h1
+{
+  color:white !important;
+  font-size:250%!important;
+  padding-top: 4%!important;
+  padding-left: 4%!important;
+}
+
+
+
 .bannertext h1
 {
-  color:white;
-  font-size:250%;
-  padding-top: 1%;
-  padding-left: 2%;
+  color:white !important;
+  font-size:250%!important;
+  padding-top: 1%!important;
+  padding-left: 2%!important;
+}
+
+.titlefont
+{
+  margin-bottom: 0.5rem!important;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"!important;
+  font-weight: 700!important;
+  line-height: 1.2!important;
 }
 .oneofone
 {
   width:70%;
   float:left;
   height:200%;
-  padding-right:5%;
+  position:relative;
+  right:4%;
+  
   
 }
 .oneoftwo img {
@@ -10321,7 +10352,7 @@ height:30px;
 
 .services
 {
-  padding-top:25%;
+  padding-top:20%;
 }
 .services h1
 {
@@ -10332,6 +10363,8 @@ height:30px;
   width:20%;
   height:60%;
   float:left;
+  position: relative;
+  right:2%;
 
 }
 .oneoffive img {
@@ -10349,6 +10382,10 @@ height:30px;
  .paddown
 {
   padding-top: 15%;
+}
+.paddownservices
+{
+  padding-top: 50%;
 }
 .contactbanner
 {
@@ -10575,4 +10612,33 @@ img {vertical-align: middle;}
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
+}
+
+.servicediv1 {
+  width:50%;
+  float:left;
+  position: relative;
+  right:0%;
+  padding-bottom: 20%;
+}
+.servicediv2 
+{ 
+  width:50%;
+  float:right;
+  position: relative;
+  top:70px;
+}
+.retrofitdiv1 {
+  width:50%;
+  float:left;
+  position: relative;
+  right:50%;
+  top:100px;
+}
+.HS
+{
+
+  font-size:90% !important;
+  position: relative;
+  top:1px;
 }

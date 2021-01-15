@@ -17,6 +17,10 @@
         <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <link rel="stylesheet" href="http://www.w3schools.com/w3css/4/w3.css">
+        <style>
+            .mySlides {display:none;}
+            </style>
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -33,51 +37,105 @@
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#">About</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="services.html">Services</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger HS" href="HS.html">Health+Safety</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="Contact.html">Contact</a></li>
-
                     </ul>
                 </div>
             </div>
         </nav>
         <!-- Masthead-->
         <header class="masthead bg-banner "  style="background-image: url(possibleBanner1.jpg);height:600px;background-repeat: no-repeat; background-size: cover;  ">
-            <div class="bannertext"><h1>Strikers Installation, your specialists for door handles and locks.</h1></div>
+            <div class="bannertext"><h1 class="titlefont">Strikers Installation, your specialists for door handles and locks.</h1></div>
             
         </header>
         <!-- Portfolio Section-->
         <section class="page-section portfolio" id="portfolio">
             <div class="container">
-                <div class="oneoftwo"> <h1>We Install</h1>
-                    <img src="assets/img/Logos.png">
+                <div class="oneoftwo"> <h1 style="margin-left: 12%;margin-top:5%">We Install</h1>
+                    <div class="w3-content w3-display-container"style="position:relative;right:6%;height:200px;width:400px; ">
+                        <img class="mySlides" src="assets/img/installericons/1.jpg" style="  width:80%; height:100%;">
+                        <img class="mySlides" src="assets/img/installericons/2.png" style="  width:80%; height:100%;">
+                        <img class="mySlides" src="assets/img/installericons/3.png" style="  width:80%; height:100%;">
+                        <img class="mySlides" src="assets/img/installericons/4.png" style="  width:80%; height:100%;">
+                        <img class="mySlides" src="assets/img/installericons/5.png" style="  width:80%; height:100%;">
+                        <img class="mySlides" src="assets/img/installericons/6.png" style=" width:80%; height:100%;">
+                        <img class="mySlides" src="assets/img/installericons/7.jpg" style="  width:80%; height:100%;">
+                        <img class="mySlides" src="assets/img/installericons/8.jpg" style="  width:80%; height:100%;">
+                        <img class="mySlides" src="assets/img/installericons/9.jpg" style="  width:80%; height:100%;">
+                        <img class="mySlides" src="assets/img/installericons/10.png" style="  width:80%; height:100%;">
+                        <img class="mySlides" src="assets/img/installericons/11.jpg" style="  width:80%; height:100%;">
+                        <img class="mySlides" src="assets/img/installericons/12.jpg" style="  width:80%; height:100%;">
+                        <img class="mySlides" src="assets/img/installericons/13.jpg" style="  width:80%; height:100%;">
+                        <img class="mySlides" src="assets/img/installericons/14.jpg" style="  width:80%; height:100%;">
+                        <img class="mySlides" src="assets/img/installericons/15.jpg" style="  width:80%; height:100%;">
+                        
+         
+         
+                        <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                        <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+                         </div>
+                       <script>var slideIndex = 0;
+                        carousel();
+                        
+                        function carousel() {
+                          var i;
+                          var x = document.getElementsByClassName("mySlides");
+                          for (i = 0; i < x.length; i++) {
+                            x[i].style.display = "none";
+                          }
+                          slideIndex++;
+                          if (slideIndex > x.length) {slideIndex = 1}
+                          x[slideIndex-1].style.display = "block";
+                          setTimeout(carousel, 2500); // Change image every 2 seconds
+                        }
+
+                        var slideIndex = 1;
+                        showDivs(slideIndex);
+
+                        function plusDivs(n) {
+                                showDivs(slideIndex += n);
+                                }
+
+                        function showDivs(n) {
+                        var i;
+                        var x = document.getElementsByClassName("mySlides");
+                        if (n > x.length) {slideIndex = 1}
+                        if (n < 1) {slideIndex = x.length} ;
+                        for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";
+                                            }
+                         x[slideIndex-1].style.display = "block";
+                                                }
+                        </script>
                 </div>
                 <div class="oneofone"><h1>About Strikers Installation</h1>
                     <p>Strikers Installation is an Otago/Southland based Hardware Installation Specialist. With a large range of mortising equipment, we have everything you need to suit any project Big or small ranging from large Commercial through to High End residential builds. We offer a friendly and efficient service and can supply hardware or install hardware purchased through other suppliers. We also specialise in installation of accessible bathroom hardware and dispensers.
                         As a proud Sitesafe member and SiteWise Green Certified company we value our team at Strikers Installation and take pride in our high safety standards
                         For more information on our services, or advice on selecting or purchasing the right products please contact us on 02108065547 or Tyson@strikersinstallation.com
                     </p>
-                    <button><a href="#"><p style="color:white;">Get Quote</p></a></button>
+                    <button><a href="Contact.html" target="#quotemessage"><p style="color:white;">Get Quote</p></a></button>
                 </div>
                </div>
         </section>
         <!-- About Section-->
         <section class=" services">
             <div class="container">
-                <h1>Our Services</h1>
+                <h1 style="padding-left: 2%;">Our Services</h1>
 
                 <div class="oneoffive">
-                    <a href="#"><img src="assets/img/icons/png/window-1.png"> <h4>Retrofitting</h4> </a>
+                    <a href="Contact.html"><img src="assets/img/icons/png/window-1.png"> <h4>Retrofitting</h4> </a>
                 </div>
                 <div class="oneoffive">
-                    <a href="#"><img src="assets/img/icons/png/tools-1.png"> <h4>Installation</h4> </a>
+                    <a href="Contact.html"><img src="assets/img/icons/png/tools-1.png"> <h4>Installation</h4> </a>
             </div>
                 <div class="oneoffive">
-                    <a href="#"><img src="assets/img/icons/png/door.png"> <h4>Locks</h4> </a>
+                    <a href="Contact.html"><img src="assets/img/icons/png/door.png"> <h4>Locks</h4> </a>
                 </div>
                 <div class="oneoffive">
-                    <a href="#"><img src="assets/img/icons/png/screw-3.png"> <h4>Hardware</h4> </a>
+                    <a href="Contact.html"><img src="assets/img/icons/png/screw-2.png"> <h4>Hardware</h4> </a>
                 </div>
                 <div class="oneoffive">
-                    <a href="#"><img src="assets/img/icons/png/lock.png"> <h4>Security</h4> </a>
+                    <a href="Contact.html"><img src="assets/img/icons/png/lock.png"> <h4>Security</h4> </a>
                 </div>
                 
 
