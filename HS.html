@@ -7,7 +7,7 @@
         <meta name="author" content="" />
         <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> 
 
-        <title>Strikers Installation | Health and Safety</title>
+        <title>Strikers Installation | Health And Safety</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/img/strikerslogoSmall.PNG" />
         <!-- Font Awesome icons (free version)-->
@@ -100,8 +100,46 @@
                     </div>
                     <!-- Footer Social Icons-->
                     <div class="col-lg-4 mb-5 mb-lg-0">
-                        <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-    
+                        <script src="http://polyfill.io/v3/polyfill.min.js?features=default"></script>
+   
+    <style type="text/css">
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 275px;
+        width:450px;
+        position:   relative;
+        right:15%;
+        bottom:20%;
+      }
+
+      /* Optional: Makes the sample page fill the window. */
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <script>
+      let map;
+
+      function initMap() {
+        const Strikers = { lat: -45.865352, lng: 170.4612171 };
+        map = new google.maps.Map(document.getElementById("map"), {
+          center: Strikers,
+          zoom: 16,
+        });
+
+        const marker = new google.maps.Marker({
+    position: Strikers,
+    map: map,
+  });
+      }
+    </script>
+    <script defer
+    src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBXp07yvA4ZqF1AKtpOBalOX3th6lG4__4&callback=initMap">
+</script>
      <div id="map"></div>
                     </div>
                     <!-- Footer About Text-->
