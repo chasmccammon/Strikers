@@ -10652,3 +10652,17 @@ img {vertical-align: middle;}
   right:15%;
   bottom:15%;
 }
+.HSbottombanner img {
+  height:120px;
+  width: 90%;
+  position:relative;
+  top:250px;
+}
+
+.sitesafe img {
+  height:120px;
+  width:10%;
+  float:right;
+  position:relative;
+  top:130px;
+}
