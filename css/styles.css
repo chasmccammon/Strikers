@@ -10665,6 +10665,7 @@ img {vertical-align: middle;}
   float:right;
   position:relative;
   top:130px;
+  right:5%;
 }
 .indexbanner {
   background-image: url(/assets/img/possibleBanner1.jpg);
