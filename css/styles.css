@@ -10666,3 +10666,73 @@ img {vertical-align: middle;}
   position:relative;
   top:130px;
 }
+.indexbanner {
+  background-image: url(/assets/img/possibleBanner1.jpg);
+  height:600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.slidecontainer1 {
+  position:relative;top:100px;right:40%;height:200px;width:400px;background-color:white;
+}
+.slidecontainer2 {
+  position:relative;left:5%;bottom:100px;height:200px;width:400px;background-color:white;
+}
+.slidecontainer3 {
+  position:relative;left:50%;bottom:300px;height:200px;width:400px;background-color:white;
+}
+.one{
+  position: relative;
+  
+}
+.two{
+position:relative;
+}
+
+.three{
+  position:relative;
+  }
+
+  .contactpaddup
+  {
+    position:relative;
+  }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .navbar-brand{ right:47%!important;top:12px}
+  .titlecolor{position:relative;left:72%;bottom:26px;}
+  .navbar-toggler{position:relative;bottom:15px;}
+  .bannertext h1{position:relative;font-size: 200%!important;width:317px;}
+  .bannertext{left:0%; width:350px;}
+  .indexbanner{height:440px;}
+  .oneofone{width:90%;}
+  .oneofone .aboutheading{font-size:166%}
+  .w3-content{width:40%!important;height:27%!important}
+  .w3-content .mySlides1{position:relative;bottom:9%}
+  .w3-content .mySlides2{position: relative; right:12px;}
+  .w3-content .mySlides3{position:relative;right:20%}
+  .slidecontainer3{position: relative; left:37%!important;}
+  .slidecontainer3 .one {position:relative;left:20px;}
+  .slidecontainer1 .two{  position: relative!important;bottom:35px!important;}
+  .slidecontainer2 .three{position: relative!important;right:20px!important;}
+  .services{padding-top:25%;}
+  .oneoffive img{height:80%;width:80%}
+  .oneoffive h4{font-size:80%;position:relative;right:10%}
+  .oneoffive .retroheading {position: relative; right:19% }
+  .oneoffive .installheading { position:relative;right:11%}
+  .contactpaddup{position: relative; bottom:36%}
+  #map{height:150px;width:100%; position:relative;left:0%!important;bottom:92px!important; }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
