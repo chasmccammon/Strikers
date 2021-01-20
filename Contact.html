@@ -18,15 +18,25 @@
         <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+       <script src="http://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+       <!-- Third party plugin JS-->
+       <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+       <!-- Contact form JS-->
+       <script src="assets/mail/jqBootstrapValidation.js"></script>
+       <script src="assets/mail/contact_me.js"></script>
+
         
     </head>
     <body id="page-top">
         <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top " id="mainNav">
             <div class="container">
                 <img src="assets/img/StrikersS.PNG" class="heading-logo">
-                <a class="navbar-brand js-scroll-trigger" href="#page-top"><h1>Strikers</h1> </a>
-                <a class="navbar-brand js-scroll-trigger" href="#page-top"> <h1 class="titlecolor">Installation</h1> </a>
+                <a class="navbar-brand js-scroll-trigger strikersheading" href="#page-top"><h1>Strikers</h1> </a>
+                <a class="navbar-brand js-scroll-trigger" href="#page-top"> <h1 class="titlecolor installationheading contactTitle">Installation</h1> </a>
                 <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars"></i>
@@ -54,8 +64,8 @@
             <div class="container">
                 <div class="contactcircle" ><img class="whiteicons"  src="assets/img/icons/email.png"> </div>
                 
-                <div class="contactcircle" style="position: relative; left:300px;"><img class="whiteicons" src="assets/img/icons/phone1.png"> </div>
-                <div class="contactcircle" style="position: relative; left:380px;"><img class="whiteicons" src="assets/img/icons/time.png"> </div>
+                <div class="contactcircle contactcircle1" style="position: relative; left:300px;"><img class="whiteicons" src="assets/img/icons/phone1.png"> </div>
+                <div class="contactcircle contactcircle2" style="position: relative; left:380px;"><img class="whiteicons" src="assets/img/icons/time.png"> </div>
                 <div id="emaildesc">
                      <h3>Email</h3>
                      <p>Tyson@strikersinstallation.com</p>
@@ -102,8 +112,8 @@
                     <div class="row">
                         <!-- Footer Location-->
                         <div class="col-lg-4 mb-5 mb-lg-0">
-                            <h4 class="text-uppercase mb-4">Contact US</h4>
-                            <p class="lead mb-0">
+                            <h4 class="text-uppercase mb-4 contactpaddup">Contact US</h4>
+                            <p class="lead mb-0 contactpaddup">
                                 Email: Tyson@strikersinstallation.com
                                 <br />
                                 Phone: 021 0806 5547
@@ -118,14 +128,7 @@
         <style type="text/css">
           /* Always set the map height explicitly to define the size of the div
            * element that contains the map. */
-          #map {
-            height: 275px;
-            width:450px;
-            position:   relative;
-            right:15%;
-            bottom:20%;
-          }
-    
+         
           /* Optional: Makes the sample page fill the window. */
           html,
           body {
@@ -156,7 +159,7 @@
          <div id="map"></div>
                         </div>
                         <!-- Footer About Text-->
-                        <div class="col-lg-4" style="position: relative;left:25px;">
+                        <div class="col-lg-4 facebook contactfooter">
                             <h4 class="text-uppercase mb-4">Find us on FaceBook</h4>
                             <a class="btn btn-outline-light btn-social mx-1" href="http://www.facebook.com/StrikersInstallation"><i class="fab fa-fw fa-facebook-f"></i></a>
                             </p>

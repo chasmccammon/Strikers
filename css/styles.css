@@ -10413,6 +10413,26 @@ height:30px;
   left:20%;
 
 }
+.contactcircle2
+{
+ 
+  border-radius: 50%;
+  background-color: #09435B;
+  float:left;
+  position:relative;
+  
+
+}
+.contactcircle3
+{
+
+  border-radius: 50%;
+  background-color: #09435B;
+  float:left;
+  position:relative;
+  
+
+}
 #contacticons
 {
   padding-top: 5%;
@@ -10718,6 +10738,18 @@ position:relative;
     position:relative;
 
   }
+  .HSContent{ 
+    position:relative;
+  }
+  .strikersheading
+  {
+    position:relative;
+  }
+  .contactTitle
+  {
+    position:relative;
+
+  }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width:395px) {
@@ -10748,14 +10780,42 @@ position:relative;
   .services .lockheading{left:4%}
   .facebook{bottom: 137px;}
   .copyright {padding-top:34%!important}
-  .retrofitdiv1 {width:100%!important;float:none;left:8%;top:22%}
+  .retrofitdiv1 {width:100%!important;float:none;left:4%;top:22%}
   .servicediv1 {width:103%!important}
   .servicediv2 {width:103%!important}
   .paddownservices{padding-top:156%!important;}
   .paddownservices2{padding-top:33%!important}
-  .serviceSlide {    width: 100%!important;height: 300px!important;position: relative!important;left: 6px!important; top:-142px;}
+  .serviceSlide {    width: 100%!important;height: 300px!important;position: relative!important;left: 2px!important; top:-142px;}
   .contactus{bottom:50px;}
-
+  .bannertextHS { left:0%;font-size:86%;width:420px;top:39%}
+  .HSContent{width:103%}
+  .HSbottombanner img {top:82px;}
+  .sitesafe img {top:-37px!important;right:0%!important}
+  .strikersheading { right:40%!important;top:12px;}
+  .installationheading {left:62%}
+  .contactcircle{width:100px;height:100px; left:2%;top:51px;}
+  .contactcircle1{width:100px;height:100px; left:10%!important;top:53px;}
+  .contactcircle2{width:100px;height:100px; left:17%!important;top:51px;}
+  .whiteicons{ padding-left:18%;padding-top:18%}
+  #emaildesc{top:80px;left:16px;}
+  #emaildesc  p{width:50px; right:38px;font-size:60%; top:5px;}
+  #phonedesc{top:8px;left:134px;}
+  #phonedesc p {left:2px;}
+  #hoursdesc{left:258px;width:110px;bottom:67px;}
+  #hoursdesc h3 {font-size:85%}
+  #quotemessage{padding-top:0%}
+  form{ width:100%}
+  #customername {left:29%;top:12px; }
+  #name{left:.5%;top:13px;width:321px}
+  #customeremail {left:30.5%;top:20px}
+  #email {left:0.5%;bottom:-16px;width:321px;}
+  #customermessage {left:30.5%;bottom:-25px;}
+  #message {left:.5%;bottom:-29px;width:321px;}
+  #submit {position:relative;left:80px;top:60px;}
+  .footer{height:300px;}
+  small {font-size:110%;position:relative;bottom:143px;}
+  .contactfooter{bottom:110px!important;}
+  .contactTitle {left:40%!important;top:-10px;}
 }
 
 @media only screen and (min-width: 400px) and (max-width:600px) {
@@ -10791,6 +10851,34 @@ position:relative;
   .paddownservices{padding-top:156%!important;}
   .paddownservices2{padding-top:33%!important}
   .serviceSlide {    width: 100%!important;height: 300px!important;position: relative!important;left: 6px!important; top:-142px;}
+  .bannertextHS { left:0%;font-size:86%;width:420px;top:39%}
+  .HSContent{width:103%}
+  .HSbottombanner img {top:82px;}
+  .sitesafe img {top:-37px!important;right:0%!important}
+  .strikersheading { right:40%!important;top:12px;}
+  .installationheading {left:62%}
+  .contactcircle{width:100px;height:100px; left:2%;top:51px;}
+  .contactcircle1{width:100px;height:100px; left:10%!important;top:53px;}
+  .contactcircle2{width:100px;height:100px; left:17%!important;top:51px;}
+  .whiteicons{ padding-left:18%;padding-top:18%}
+  #emaildesc{top:80px;left:16px;}
+  #emaildesc  p{width:50px; right:38px;font-size:60%; top:5px;}
+  #phonedesc{top:8px;left:134px;}
+  #phonedesc p {left:2px;}
+  #hoursdesc{left:258px;width:110px;bottom:67px;}
+  #hoursdesc h3 {font-size:85%}
+  #quotemessage{padding-top:0%}
+  form{ width:100%}
+  #customername {left:29%;top:12px; }
+  #name{left:.5%;top:13px;width:361px}
+  #customeremail {left:30.5%;top:20px}
+  #email {left:0.5%;bottom:-16px;width:361px;}
+  #customermessage {left:30.5%;bottom:-25px;}
+  #message {left:.5%;bottom:-29px;width:361px;}
+  #submit {position:relative;left:80px;top:60px;}
+  .footer{height:500px;}
+  small {font-size:110%;position:relative;bottom:143px;}
+  .contactfooter{bottom:110px!important;}
 
 }
 
