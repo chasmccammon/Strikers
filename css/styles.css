@@ -10705,6 +10705,19 @@ position:relative;
   .facebook {
     position:relative;
   }
+  .serviceSlide
+  {
+    position: relative;
+
+  }
+  .paddownservices2
+  {
+    position:relative;
+  }
+  .contactus {
+    position:relative;
+
+  }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width:395px) {
@@ -10735,8 +10748,13 @@ position:relative;
   .services .lockheading{left:4%}
   .facebook{bottom: 137px;}
   .copyright {padding-top:34%!important}
-
-
+  .retrofitdiv1 {width:100%!important;float:none;left:8%;top:22%}
+  .servicediv1 {width:103%!important}
+  .servicediv2 {width:103%!important}
+  .paddownservices{padding-top:156%!important;}
+  .paddownservices2{padding-top:33%!important}
+  .serviceSlide {    width: 100%!important;height: 300px!important;position: relative!important;left: 6px!important; top:-142px;}
+  .contactus{bottom:50px;}
 
 }
 
@@ -10767,6 +10785,13 @@ position:relative;
   .services h1 {padding-top:18%}
   .facebook{bottom: 95px;}
   .copyright {padding-top:34%!important}
+  .retrofitdiv1 {width:100%!important;float:none;left:8%;top:22%}
+  .servicediv1 {width:103%!important}
+  .servicediv2 {width:103%!important}
+  .paddownservices{padding-top:156%!important;}
+  .paddownservices2{padding-top:33%!important}
+  .serviceSlide {    width: 100%!important;height: 300px!important;position: relative!important;left: 6px!important; top:-142px;}
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
