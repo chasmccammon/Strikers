@@ -10699,10 +10699,50 @@ position:relative;
     position:relative;
   }
 
+  .lockheading {
+    position:relative;
+  }
+  .facebook {
+    position:relative;
+  }
+
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width:395px) {
+
+  .navbar-brand{position:relative;right:39%!important} 
+  .titlecolor{position:relative;left:54%!important;bottom:29px;}
+  .bannertext{left:0%;width:375px;height:235px;top:18%!important}
+  .indexbanner{height:440px;}
+  .oneofone{width:90%;}
+  .oneofone .aboutheading{font-size:166%}
+  .w3-content{width:40%!important;height:27%!important}
+  .w3-content .mySlides1{position:relative;bottom:9%}
+  .w3-content .mySlides2{position: relative; right:12px;}
+  .w3-content .mySlides3{position:relative;right:20%}
+  .slidecontainer3{position: relative; left:37%!important;}
+  .slidecontainer3 .one {position:relative;left:20px;}
+  .slidecontainer1 .two{  position: relative!important;bottom:35px!important;}
+  .slidecontainer2 .three{position: relative!important;right:20px!important;}
+  .services{padding-top:25%;}
+  .oneoffive img{height:80%;width:80%}
+  .oneoffive h4{font-size:80%;position:relative;right:10%}
+  .oneoffive .retroheading {position: relative; right:36% }
+  .oneoffive .installheading { position:relative;right:11%}
+  .contactpaddup{position: relative; bottom:36%}
+  #map{height:150px;width:100%; position:relative;left:0%!important;bottom:92px!important; }
+  .services h1 {padding-top:55%}
+  .navbar-toggler{position:relative;bottom:15px;}
+  .services .lockheading{left:4%}
+  .facebook{bottom: 137px;}
+  .copyright {padding-top:34%!important}
+
+
+
+}
+
+@media only screen and (min-width: 400px) and (max-width:600px) {
   .navbar-brand{ right:47%!important;top:12px}
-  .titlecolor{position:relative;left:72%;bottom:26px;}
+  .titlecolor{position:relative;left:68%;bottom:26px;}
   .navbar-toggler{position:relative;bottom:15px;}
   .bannertext h1{position:relative;font-size: 200%!important;width:317px;}
   .bannertext{left:0%; width:350px;}
@@ -10724,6 +10764,9 @@ position:relative;
   .oneoffive .installheading { position:relative;right:11%}
   .contactpaddup{position: relative; bottom:36%}
   #map{height:150px;width:100%; position:relative;left:0%!important;bottom:92px!important; }
+  .services h1 {padding-top:18%}
+  .facebook{bottom: 95px;}
+  .copyright {padding-top:34%!important}
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
