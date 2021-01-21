@@ -10445,8 +10445,8 @@ height:30px;
 #emaildesc
 {
   position:relative;
-  top:160px;
-  right:200px;
+  top:186px;
+  right:196px;
 }
 #emaildesc p
 {
@@ -10750,6 +10750,14 @@ position:relative;
     position:relative;
 
   }
+  .emailbreak {
+    display:inline;
+    bottom:40px;left:58px;
+  }
+  #hoursdesc h3 {
+    position:relative;
+    left:67px;
+  }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width:395px) {
@@ -10793,29 +10801,31 @@ position:relative;
   .sitesafe img {top:-37px!important;right:0%!important}
   .strikersheading { right:40%!important;top:12px;}
   .installationheading {left:62%}
-  .contactcircle{width:100px;height:100px; left:2%;top:51px;}
-  .contactcircle1{width:100px;height:100px; left:10%!important;top:53px;}
-  .contactcircle2{width:100px;height:100px; left:17%!important;top:51px;}
+  .contactcircle{width:100px;height:100px; left:0%;top:51px;}
+  .contactcircle1{width:100px;height:100px; left:7%!important;top:53px;}
+  .contactcircle2{width:100px;height:100px; left:13%!important;top:51px;}
   .whiteicons{ padding-left:18%;padding-top:18%}
-  #emaildesc{top:80px;left:16px;}
-  #emaildesc  p{width:50px; right:38px;font-size:60%; top:5px;}
-  #phonedesc{top:8px;left:134px;}
+  #emaildesc{top:80px;left:0px;}
+  #emaildesc  p{width:50px; right:16px;font-size:100%; top:1px;}
+  #phonedesc{top:-41px;left:118px;}
   #phonedesc p {left:2px;}
-  #hoursdesc{left:258px;width:110px;bottom:67px;}
-  #hoursdesc h3 {font-size:85%}
+  #hoursdesc{left:230px;width:110px;bottom:121px;}
+  #hoursdesc h3 { left:18px;}
   #quotemessage{padding-top:0%}
   form{ width:100%}
   #customername {left:29%;top:12px; }
-  #name{left:.5%;top:13px;width:321px}
+  #name{left:3.5%;top:13px;width:300px}
   #customeremail {left:30.5%;top:20px}
-  #email {left:0.5%;bottom:-16px;width:321px;}
+  #email {left:3.5%;bottom:-16px;width:300px;}
   #customermessage {left:30.5%;bottom:-25px;}
-  #message {left:.5%;bottom:-29px;width:321px;}
+  #message {left:3.5%;bottom:-29px;width:300px;}
   #submit {position:relative;left:80px;top:60px;}
   .footer{height:300px;}
   small {font-size:110%;position:relative;bottom:143px;}
   .contactfooter{bottom:110px!important;}
   .contactTitle {left:40%!important;top:-10px;}
+  .emailbreak {display:block; top:-14px!important;left:-18px;}
+
 }
 
 @media only screen and (min-width: 400px) and (max-width:600px) {
@@ -10861,12 +10871,12 @@ position:relative;
   .contactcircle1{width:100px;height:100px; left:10%!important;top:53px;}
   .contactcircle2{width:100px;height:100px; left:17%!important;top:51px;}
   .whiteicons{ padding-left:18%;padding-top:18%}
-  #emaildesc{top:80px;left:16px;}
-  #emaildesc  p{width:50px; right:38px;font-size:60%; top:5px;}
-  #phonedesc{top:8px;left:134px;}
+  #emaildesc{top:97px;left:16px;}
+  #emaildesc  p{width:50px; right:16px;font-size:100%; top:1px;}
+  #phonedesc{top:-26px;left:134px;}
   #phonedesc p {left:2px;}
-  #hoursdesc{left:258px;width:110px;bottom:67px;}
-  #hoursdesc h3 {font-size:85%}
+  #hoursdesc{left:258px;width:110px;bottom:107px;}
+  #hoursdesc h3 {position: relative; left:14px}
   #quotemessage{padding-top:0%}
   form{ width:100%}
   #customername {left:29%;top:12px; }
@@ -10879,6 +10889,7 @@ position:relative;
   .footer{height:500px;}
   small {font-size:110%;position:relative;bottom:143px;}
   .contactfooter{bottom:110px!important;}
+  .emailbreak {display:block; top:-14px!important;left:-18px;}
 
 }
 
