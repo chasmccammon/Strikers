@@ -10792,7 +10792,7 @@ position:relative;
   .navbar-toggler{position:relative;bottom:15px;}
   .services .lockheading{left:4%}
   .facebook{bottom: 137px;}
-  .copyright {padding-top:34%!important}
+  .copyright {padding-top:102%!important}
   .retrofitdiv1 {width:100%!important;float:none;left:4%;top:22%}
   .servicediv1 {width:103%!important}
   .servicediv2 {width:103%!important}
@@ -10800,7 +10800,7 @@ position:relative;
   .paddownservices2{padding-top:33%!important}
   .serviceSlide {    width: 100%!important;height: 300px!important;position: relative!important;left: 2px!important; top:-142px;}
   .contactus{bottom:50px;}
-  .bannertextHS { left:0%;font-size:86%;width:420px;top:39%}
+  .bannertextHS { left:0%;font-size:86%;width:350px;top:39%}
   .HSContent{width:103%}
   .HSbottombanner img {top:82px;}
   .sitesafe img {top:-37px!important;right:0%!important}
@@ -10812,18 +10812,18 @@ position:relative;
   .whiteicons{ padding-left:18%;padding-top:18%}
   #emaildesc{top:80px;left:0px;}
   #emaildesc  p{width:50px; right:16px;font-size:100%; top:1px;}
-  #phonedesc{top:-41px;left:118px;}
+  #phonedesc{top:-41px;left:113px;}
   #phonedesc p {left:2px;}
-  #hoursdesc{left:230px;width:110px;bottom:121px;}
+  #hoursdesc{left:225px;width:110px;bottom:121px;}
   #hoursdesc h3 { left:18px;}
   #quotemessage{padding-top:0%}
   form{ width:100%}
   #customername {left:29%;top:12px; }
-  #name{left:3.5%;top:13px;width:300px}
+  #name{left:2%;top:13px;width:300px}
   #customeremail {left:30.5%;top:20px}
-  #email {left:3.5%;bottom:-16px;width:300px;}
+  #email {left:2%;bottom:-16px;width:300px;}
   #customermessage {left:30.5%;bottom:-25px;}
-  #message {left:3.5%;bottom:-29px;width:300px;}
+  #message {left:2%;bottom:-29px;width:300px;}
   #submit {position:relative;left:80px;top:60px;}
   .footer{height:300px;}
   small {font-size:110%;position:relative;bottom:143px;}
@@ -10833,6 +10833,7 @@ position:relative;
   .allegion {left:10px!important;top:-5px!important}
   .tradco{left:-2px!important}
   .madinoz{top:-4px!important;}
+  .bg-banner {background-image:url(/assets/img/Contactcrop.jpg)!important}
 
 }
 
@@ -10862,7 +10863,7 @@ position:relative;
   #map{height:150px;width:100%; position:relative;left:0%!important;bottom:92px!important; }
   .services h1 {padding-top:18%}
   .facebook{bottom: 95px;}
-  .copyright {padding-top:34%!important}
+  .copyright {padding-top:43%!important}
   .retrofitdiv1 {width:100%!important;float:none;left:8%;top:22%}
   .servicediv1 {width:103%!important}
   .servicediv2 {width:103%!important}
@@ -10901,6 +10902,8 @@ position:relative;
   .allegion {left:10px!important;top:-5px!important}
   .tradco{left:-2px!important}
   .madinoz{top:-4px!important;}
+  .bg-banner {background-position-x: -581px;background-position-y:136px;}
+  .contactbanner{left:5%!important;top:250px!important}
 
 
 }
