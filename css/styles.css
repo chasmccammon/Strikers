@@ -68,7 +68,6 @@ body {
   color: #212529;
   text-align: left;
   background-color: #fff;
-  overflow-x: hidden;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -191,7 +190,6 @@ pre {
   margin-top: 0;
   margin-bottom: 1rem;
   overflow: auto;
-  -ms-overflow-style: scrollbar;
 }
 
 figure {
@@ -537,10 +535,7 @@ pre code {
   word-break: normal;
 }
 
-.pre-scrollable {
-  max-height: 340px;
-  overflow-y: scroll;
-}
+
 
 .container,
 .container-fluid,
@@ -5407,21 +5402,7 @@ a.close.disabled {
   transform: scale(1.02);
 }
 
-.modal-dialog-scrollable {
-  display: flex;
-  max-height: calc(100% - 1rem);
-}
-.modal-dialog-scrollable .modal-content {
-  max-height: calc(100vh - 1rem);
-  overflow: hidden;
-}
-.modal-dialog-scrollable .modal-header,
-.modal-dialog-scrollable .modal-footer {
-  flex-shrink: 0;
-}
-.modal-dialog-scrollable .modal-body {
-  overflow-y: auto;
-}
+
 
 .modal-dialog-centered {
   display: flex;
@@ -5516,13 +5497,6 @@ a.close.disabled {
   margin: 0.25rem;
 }
 
-.modal-scrollbar-measure {
-  position: absolute;
-  top: -9999px;
-  width: 50px;
-  height: 50px;
-  overflow: scroll;
-}
 
 @media (min-width: 576px) {
   .modal-dialog {
@@ -5530,12 +5504,7 @@ a.close.disabled {
     margin: 1.75rem auto;
   }
 
-  .modal-dialog-scrollable {
-    max-height: calc(100% - 3.5rem);
-  }
-  .modal-dialog-scrollable .modal-content {
-    max-height: calc(100vh - 3.5rem);
-  }
+
 
   .modal-dialog-centered {
     min-height: calc(100% - 3.5rem);
@@ -9938,6 +9907,7 @@ h3 {
   }
   body {
     min-width: 992px !important;
+    z-index:15;
   }
 
   .container {
@@ -10059,6 +10029,7 @@ h3 {
   padding-bottom: 1rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
+  z-index: 10;
 }
 #mainNav .navbar-brand {
   color: #09435B ;
@@ -10763,6 +10734,10 @@ position:relative;
     position: relative;
     
   }
+  .padfb {
+    position:relative;
+    left:30px;
+  }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width:395px) {
@@ -10827,7 +10802,7 @@ position:relative;
   #submit {position:relative;left:80px;top:60px;}
   .footer{height:300px;}
   small {font-size:110%;position:relative;bottom:143px;}
-  .contactfooter{bottom:110px!important;}
+  .contactfooter{ bottom:110px!important;}
   .contactTitle {left:40%!important;top:-10px;}
   .emailbreak {display:block; top:-14px!important;left:-18px;}
   .allegion {left:10px!important;top:-5px!important}
