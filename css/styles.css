@@ -10758,6 +10758,11 @@ position:relative;
     position:relative;
     left:67px;
   }
+  .allegion
+  {
+    position: relative;
+    
+  }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width:395px) {
@@ -10825,6 +10830,9 @@ position:relative;
   .contactfooter{bottom:110px!important;}
   .contactTitle {left:40%!important;top:-10px;}
   .emailbreak {display:block; top:-14px!important;left:-18px;}
+  .allegion {left:10px!important;top:-5px!important}
+  .tradco{left:-2px!important}
+  .madinoz{top:-4px!important;}
 
 }
 
@@ -10890,6 +10898,10 @@ position:relative;
   small {font-size:110%;position:relative;bottom:143px;}
   .contactfooter{bottom:110px!important;}
   .emailbreak {display:block; top:-14px!important;left:-18px;}
+  .allegion {left:10px!important;top:-5px!important}
+  .tradco{left:-2px!important}
+  .madinoz{top:-4px!important;}
+
 
 }
 
