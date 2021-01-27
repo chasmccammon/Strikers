@@ -10779,18 +10779,19 @@ position:relative;
   .HSContent{width:103%}
   .HSbottombanner img {top:82px;}
   .sitesafe img {top:-37px!important;right:0%!important}
-  .strikersheading { right:40%!important;top:12px;}
+  .strikersheading { right:48%!important;top:0px;}
   .installationheading {left:62%}
-  .contactcircle{width:100px;height:100px; left:0%;top:51px;}
-  .contactcircle1{width:100px;height:100px; left:7%!important;top:53px;}
-  .contactcircle2{width:100px;height:100px; left:13%!important;top:51px;}
+  .contactcircle{width:100px;height:100px; left:-2%;top:51px;}
+  .contactcircle1{width:100px;height:100px; left:5%!important;top:53px;}
+  .contactcircle2{width:100px;height:100px; left:7%!important;top:51px;}
   .whiteicons{ padding-left:18%;padding-top:18%}
   #emaildesc{top:80px;left:0px;}
   #emaildesc  p{width:50px; right:16px;font-size:100%; top:1px;}
   #phonedesc{top:-41px;left:113px;}
   #phonedesc p {left:2px;}
   #hoursdesc{left:225px;width:110px;bottom:121px;}
-  #hoursdesc h3 { left:18px;}
+  #hoursdesc h3 { left:7px;}
+  #hoursdesc p {left:17px;}
   #quotemessage{padding-top:0%}
   form{ width:100%}
   #customername {left:29%;top:12px; }
@@ -10803,12 +10804,17 @@ position:relative;
   .footer{height:300px;}
   small {font-size:110%;position:relative;bottom:143px;}
   .contactfooter{ bottom:110px!important;}
-  .contactTitle {left:40%!important;top:-10px;}
+  .contactTitle {left:53%!important;top:-23px;}
   .emailbreak {display:block; top:-14px!important;left:-18px;}
   .allegion {left:10px!important;top:-5px!important}
   .tradco{left:-2px!important}
   .madinoz{top:-4px!important;}
-  .bg-banner {background-image:url(/assets/img/Contactcrop.jpg)!important}
+  .bg-bannercontact {background-image:url(Contactcrop.jpg)!important}
+  .installleft {left:48%!important}
+  .contactheaderhamburger {position:relative;right:342px;top:27px;}
+  #quotemessage{position:relative;right:20px}
+  .smallmobilemenu {position:relative;right:334px;top:23px;}
+  
 
 }
 
@@ -10849,8 +10855,8 @@ position:relative;
   .HSContent{width:103%}
   .HSbottombanner img {top:82px;}
   .sitesafe img {top:-37px!important;right:0%!important}
-  .strikersheading { right:40%!important;top:12px;}
-  .installationheading {left:62%}
+  .strikersheading { right:270px!important;top:28px; bottom:12px;font-size:36px}
+  .installationheading {left:77%;font-size:36px;}
   .contactcircle{width:100px;height:100px; left:2%;top:51px;}
   .contactcircle1{width:100px;height:100px; left:10%!important;top:53px;}
   .contactcircle2{width:100px;height:100px; left:17%!important;top:51px;}
@@ -10879,6 +10885,9 @@ position:relative;
   .madinoz{top:-4px!important;}
   .bg-banner {background-position-x: -581px;background-position-y:136px;}
   .contactbanner{left:5%!important;top:250px!important}
+  .heading-logo{right:140px;}
+  .contactnavhamburger {position:relative;right:106px;top:3px}
+  .contactTitle {left:85%;top:-7px;}
 
 
 }
