@@ -88,47 +88,19 @@
             </br>
                 <form method=”post” name=”contact_form” >
 
-                     <h4 id="customername">Your Name:</h4> <input type=”text” name=”name” id="name" size="40"> </br>
+                     <h4 id="customername">Your Name:</h4> <input type=”text” class="input1" name=”name” id="name" size="40"> </br>
                     <h4 id="customeremail"> Email Address:</h4>
 
-                    <input type=”text” name=”email” id="email" size="40" >
+                    <input type=”text” name=”email” id="email" class="input1" size="40" >
                 </br>
                 <h4 id="customermessage">Message:</h4>   
-                    <textarea name=”message” id="message" rows="6" cols="45"></textarea>
+                    <textarea name=”message” id="message" rows="6" class="input1" cols="45"></textarea>
                 </br>
                     <button type=”submit” value=”Submit” id="submit" >Send Message</button> 
                     
                     </form>
                     </div>
-                    <script>
-                    $('.contact_form').on('submit',function(e){
-                        //optional validation code here
-                  
-                        e.preventDefault();
-                      
-                        $.ajax({
-                            url: "http://script.google.com/macros/s/AKfycbzmRTnNavs5RQ5e8Ef3kXWl8cK0aqc_ybp344xuglkBYQDs4FWedsyJ/exec",
-                            method: "POST",
-                            dataType: "json",
-                            data: $(".contact1-form").serialize(),
-                            success: function(response) {
-                                
-                                if(response.result == "success") {
-                                    $('.contact1-form')[0].reset();
-                                    alert('Thank you for contacting us.');
-                                    return true;
-                                }
-                                else {
-                                    alert("Something went wrong. Please try again.")
-                                }
-                            },
-                            error: function() {
-                                
-                                alert("Something went wrong. Please try again.")
-                            }
-                        })
-                    });
-                    </script>
+                   
                     
             </div>
         </section>
@@ -207,7 +179,8 @@
             </div>
            
             
-    
+            <script src="js/main.js"></script>
+
             <!-- Core theme JS-->
         </body>
     </html>
