@@ -106,7 +106,7 @@
                     </form>
                     </div>
                    <script>
-                       $('.contact1-form').on('submit',function(e){
+                       $('.contact_form').on('submit',function(e){
         //optional validation code here
   
         e.preventDefault();
@@ -115,11 +115,11 @@
             url: "http://script.google.com/macros/s/AKfycbzL4RZ4-Pb99DDb9ZQQfQo1ngF8bVBz969wmLgqFGcD3QwzqcUliqyQ/exec",
             method: "POST",
             dataType: "json",
-            data: $(".contact1-form").serialize(),
+            data: $(".contact_form").serialize(),
             success: function(response) {
                 
                 if(response.result == "success") {
-                    $('.contact1-form')[0].reset();
+                    $('.contact_form')[0].reset();
                     alert('Thank you for contacting us.');
                     return true;
                 }
