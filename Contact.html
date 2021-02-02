@@ -106,39 +106,11 @@
                     
                     </form>
                     </div>
-                   <script>
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdWLiz62uMw26XN3ytG4Z5SmmC3LNtop4KM_PjUGtv-CKS5mw/viewform?embedded=true" width="700" 
+                    height="520" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
                     
     
-                       $('.contact_form').on('submit',function(e){
-        //optional validation code here
-  
-        e.preventDefault();
-      
-        $.ajax({
-            url: "http://script.google.com/macros/s/AKfycbzL4RZ4-Pb99DDb9ZQQfQo1ngF8bVBz969wmLgqFGcD3QwzqcUliqyQ/exec",
-            method: "POST",
-            dataType: "json",
-            data: $(".contact_form").serialize(),
-            success: function(response) {
-                
-                if(response.result == "success") {
-                    $('.contact_form')[0].reset();
-                    alert('Thank you for contacting us.');
-                    return true;
-                }
-                else {
-                    alert("Something went wrong. Please try again.")
-                }
-            },
-            error: function() {
-                
-                alert("Something went wrong. Please try again.")
-            }
-        })
-
-    });
-  
-                   </script>
+                  
                     
             </div>
         </section>
