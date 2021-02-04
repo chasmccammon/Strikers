@@ -10766,8 +10766,8 @@ position:relative;
   .services h1 {padding-top:55%}
   .navbar-toggler{position:relative;bottom:15px;}
   .services .lockheading{left:4%}
-  .facebook{bottom: 137px;}
-  .copyright {padding-top:102%!important}
+  .facebook{bottom: 80px;}
+  .copyright {padding-top:80%!important}
   .retrofitdiv1 {width:100%!important;float:none;left:4%;top:22%}
   .servicediv1 {width:103%!important}
   .servicediv2 {width:103%!important}
@@ -10814,7 +10814,9 @@ position:relative;
   .contactheaderhamburger {position:relative;right:342px;top:27px;}
   #quotemessage{position:relative;right:20px}
   .smallmobilemenu {position:relative;right:334px;top:23px;}
-  .contactformmobile{left:0%;width:100%;}
+  .contactformobile{left:0%!important;width:100%;}
+  .mb-5 { margin-bottom:0rem!important}
+
   
 
 }
@@ -10845,7 +10847,7 @@ position:relative;
   #map{height:150px;width:100%; position:relative;left:0%!important;bottom:92px!important; }
   .services h1 {padding-top:18%}
   .facebook{bottom: 95px;}
-  .copyright {padding-top:43%!important}
+  .copyright {padding-top:80%!important}
   .retrofitdiv1 {width:100%!important;float:none;left:8%;top:22%}
   .servicediv1 {width:103%!important}
   .servicediv2 {width:103%!important}
@@ -10889,8 +10891,8 @@ position:relative;
   .heading-logo{right:140px;}
   .contactnavhamburger {position:relative;right:106px;top:3px}
   .contactTitle {left:85%;top:-7px;}
-  .contactformobile {width:100%;left:0%}
-
+  .contactformobile {width:100%;left:0%!important}
+  .mb-5 { margin-bottom:0rem!important}
 
 }
 
