@@ -10332,7 +10332,7 @@ height:30px;
   height:60%;
   float:left;
   position: relative;
-  right:2%;
+  right:0%;
 
 }
 .oneoffive img {
@@ -10345,7 +10345,7 @@ height:30px;
 {
   text-align: center;
   padding-top:10%;
-  padding-left:30%;
+  padding-left:22%;
 }
  .paddown
 {
@@ -10740,7 +10740,7 @@ position:relative;
   }
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width:395px) {
+@media only screen and (max-width:412px) {
 
   .navbar-brand{position:relative;right:39%!important} 
   .titlecolor{position:relative;left:54%!important;bottom:29px;}
@@ -10761,12 +10761,12 @@ position:relative;
   .oneoffive h4{font-size:80%;position:relative;right:10%}
   .oneoffive .retroheading {position: relative; right:36% }
   .oneoffive .installheading { position:relative;right:11%}
-  .contactpaddup{position: relative; bottom:36%}
-  #map{height:150px;width:100%; position:relative;left:0%!important;bottom:92px!important; }
+  .contactpaddup{position: relative; bottom:41%}
+  #map{height:150px;width:100%; position:relative;left:0%!important;bottom:65px!important; }
   .services h1 {padding-top:55%}
   .navbar-toggler{position:relative;bottom:15px;}
-  .services .lockheading{left:4%}
-  .facebook{bottom: 80px;}
+  .services .lockheading{left:1%}
+  .facebook{bottom: 40px;}
   .copyright {padding-top:80%!important}
   .retrofitdiv1 {width:100%!important;float:none;left:4%;top:22%}
   .servicediv1 {width:103%!important}
@@ -10780,9 +10780,9 @@ position:relative;
   .HSbottombanner img {top:82px;}
   .sitesafe img {top:-37px!important;right:0%!important}
   .strikersheading { right:48%!important;top:0px;}
-  .installationheading {left:62%}
+  .installationheading {right:11%}
   .contactcircle{width:100px;height:100px; left:-2%;top:51px;}
-  .contactcircle1{width:100px;height:100px; left:5%!important;top:53px;}
+  .contactcircle1{width:100px;height:100px; left:3%!important;top:53px;}
   .contactcircle2{width:100px;height:100px; left:7%!important;top:51px;}
   .whiteicons{ padding-left:18%;padding-top:18%}
   #emaildesc{top:80px;left:0px;}
@@ -10801,7 +10801,7 @@ position:relative;
   #customermessage {left:30.5%;bottom:-25px;}
   #message {left:2%;bottom:-29px;width:300px;}
   #submit {position:relative;left:80px;top:60px;}
-  .footer{height:300px;}
+  .footer{height:346px;}
   small {font-size:110%;position:relative;bottom:143px;}
   .contactfooter{ bottom:110px!important;}
   .contactTitle {left:53%!important;top:-23px;}
@@ -10821,7 +10821,7 @@ position:relative;
 
 }
 
-@media only screen and (min-width: 400px) and (max-width:600px) {
+@media only screen and (min-width: 413px) and (max-width:600px) {
   .navbar-brand{ right:47%!important;top:12px}
   .titlecolor{position:relative;left:68%;bottom:26px;}
   .navbar-toggler{position:relative;bottom:15px;}
@@ -10843,10 +10843,10 @@ position:relative;
   .oneoffive h4{font-size:80%;position:relative;right:10%}
   .oneoffive .retroheading {position: relative; right:19% }
   .oneoffive .installheading { position:relative;right:11%}
-  .contactpaddup{position: relative; bottom:36%}
-  #map{height:150px;width:100%; position:relative;left:0%!important;bottom:92px!important; }
+  .contactpaddup{position: relative; bottom:18%}
+  #map{height:150px;width:100%; position:relative;left:0%!important;bottom:10px!important; }
   .services h1 {padding-top:18%}
-  .facebook{bottom: 95px;}
+  .facebook{bottom: 0px;}
   .copyright {padding-top:80%!important}
   .retrofitdiv1 {width:100%!important;float:none;left:8%;top:22%}
   .servicediv1 {width:103%!important}
