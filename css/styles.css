@@ -10928,6 +10928,12 @@ position:relative;
   
 
 }
+@media only screen and (min-width: 519px) and (max-width:649px){
+.titlecolor{right:0px;top:1px}
+.strikerstitle{left:130%}
+#mainNav .navbar-toggler {position:relative;left:-6px;top:10px}
+
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 650px) and (max-width:767px){
