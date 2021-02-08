@@ -11070,12 +11070,11 @@ position:relative;
   .contactcircle1{width:100px;height:100px; left:10%!important;top:53px;}
   .contactcircle2{width:100px;height:100px; left:17%!important;top:51px;}
   .whiteicons{ padding-left:18%;padding-top:18%}
-  #emaildesc{top:97px;left:16px;}
-  #emaildesc  p{width:50px; right:16px;font-size:100%; top:1px;}
-  #phonedesc{top:-26px;left:134px;}
-  #phonedesc p {left:2px;}
-  #hoursdesc{left:258px;width:110px;bottom:107px;}
-  #hoursdesc h3 {position: relative; left:14px}
+  #emaildesc{top:154px;left:-152px;}
+  #emaildesc p {right:18px}
+  #phonedesc{top:32px;left:323px;}
+  #hoursdesc{left:430px;width:110px;bottom:51px;}
+  #hoursdesc p {left:75px;}
   #quotemessage{padding-top:0%}
   form{ width:100%}
   #customername {left:29%;top:12px; }
@@ -11106,9 +11105,7 @@ position:relative;
   .contactcircle {left:21%}
   .contactcircle1 {left:33%!important}
   .contactcircle2 {left:43%!important}
-  #hoursdesc{left:482px}
-  #emaildesc{left:329px}
-  #emaildesc h3 {position:relative;top:64px;right:297px;}
+  
   .strikerstitle { left:41%}
   .contactbanner{top:190px!important}
   #mainNav .navbar-toggler{left:-44px;top:12px}
@@ -11154,10 +11151,19 @@ position:relative;
 .contactstrikerstitle{left:10%!important}
 
 }
-@media only screen and (min-width: 1200px) and (max-width:1300px) {
-  .strikerstitle{left:40%!important}
+.contactstrikerstitle {
+  position:relative;
+  left:1%;
+}
+@media only screen and (min-width: 1200px) and (max-width:1301px) {
+  .strikerstitle{left:-42%!important}
   .contactinstallfix {left:30%!important}
   .contactmenuoptions {top:-2px!important;right:5%!important}
+  .dropnav{position:relative;top:-1px!important}
+  .contactstrikerstitle { position:relative;left:44%!important}
+  #emaildesc{left:-262px!important}
+  #phonedesc {}
+  #hoursdesc {left:633px!important}
 
 }
 /* Large devices (laptops/desktops, 992px and up) */
