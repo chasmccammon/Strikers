@@ -10831,6 +10831,7 @@ position:relative;
   .contactnavhamburger{position:relative;right:114px;top:20px}
   .contactinstallfix {left:54%!important;font-size:2.5rem}
   .contactbannermobile{background-position-x: -238px;background-position-y:77px;}
+  .indexbanner{background-position-x:-366px}
 
   
 
@@ -10921,6 +10922,8 @@ position:relative;
   .contactinstallfix{left:76%!important}
   #mainNav .navbar-toggler {position:relative;left:-6px}
   .contactbannermobile {background-position-x:-472px}
+  .indexbanner{background-position-x:-366px}
+
 
   
 
