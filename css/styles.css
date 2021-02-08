@@ -10332,7 +10332,7 @@ height:30px;
   height:60%;
   float:left;
   position: relative;
-  right:0%;
+  right:4%;
 
 }
 .oneoffive img {
@@ -10345,7 +10345,7 @@ height:30px;
 {
   text-align: center;
   padding-top:10%;
-  padding-left:29%;
+  padding-left:40%;
 }
  .paddown
 {
@@ -10403,6 +10403,10 @@ height:30px;
   position:relative;
   
 
+}
+.strikerstitle {
+  position: relative;
+  left:85%;
 }
 #contacticons
 {
@@ -10503,6 +10507,7 @@ form {
   color: white;
 
 }
+.retroheading {position:relative;left:-22px;}
 
 #submit {
   background-color: #1FA6D6; /* Green */
@@ -10738,7 +10743,7 @@ position:relative;
     position:relative;
     left:30px;
   }
-
+ 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width:412px) {
 
@@ -10762,11 +10767,11 @@ position:relative;
   .oneoffive .retroheading {position: relative; right:36% }
   .oneoffive .installheading { position:relative;right:11%}
   .contactpaddup{position: relative; bottom:41%}
-  #map{height:150px;width:100%; position:relative;left:0%!important;bottom:65px!important; }
+  #map{height:150px;width:100%; position:relative;left:0%!important;bottom:54px!important; }
   .services h1 {padding-top:55%}
-  .navbar-toggler{position:relative;bottom:15px;}
+  .navbar-toggler{position:relative;bottom:30px;}
   .services .lockheading{left:1%}
-  .facebook{bottom: 40px;}
+  .facebook{bottom: 30px;}
   .copyright {padding-top:80%!important}
   .retrofitdiv1 {width:100%!important;float:none;left:4%;top:22%}
   .servicediv1 {width:103%!important}
@@ -10817,8 +10822,21 @@ position:relative;
   .contactformobile{left:0%!important;width:100%;}
   .mb-5 { margin-bottom:0rem!important}
   .heading-logo {display:none}
+  .strikerstitle {position: relative;left:81%;}
+  .HSstrikersfix{position:relative;left:72%}
+  .Cstrikersfix {left:202px}
+  .securityheading {left:-12px!important}
+  .hardwareheading {right:31%!important}
+  .lockheading {left:1.5px!important}
+  .contactnavhamburger{position:relative;right:114px;top:20px}
+  .contactinstallfix {left:54%!important;font-size:2.5rem}
+  .contactbannermobile{background-position-x: -238px;background-position-y:77px;}
 
   
+
+}
+@media only screen and (min-width: 411px) and (max-width:412px){
+  .navbar-expand-lg > .container{padding-left: 20px;}
 
 }
 
@@ -10844,6 +10862,9 @@ position:relative;
   .oneoffive h4{font-size:80%;position:relative;right:10%}
   .oneoffive .retroheading {position: relative; right:19% }
   .oneoffive .installheading { position:relative;right:11%}
+  .hardwareheading{right:21%!important}
+  .locksheading {left:6%!important}
+  .securityheading {left:-9px!important;}
   .contactpaddup{position: relative; bottom:18%}
   #map{height:150px;width:100%; position:relative;left:0%!important;bottom:10px!important; }
   .services h1 {padding-top:18%}
@@ -10887,18 +10908,26 @@ position:relative;
   .allegion {left:10px!important;top:-5px!important}
   .tradco{left:-2px!important}
   .madinoz{top:-4px!important;}
-  .bg-banner {background-position-x: -581px;background-position-y:136px;}
+  .bg-banner {background-position-x: -477px;background-position-y:136px; width:416px;}
   .contactbanner{left:5%!important;top:250px!important}
   .heading-logo{right:140px;}
-  .contactnavhamburger {position:relative;right:106px;top:3px}
+  .contactnavhamburger {position:relative;left:-109px!important;top:22px}
   .contactTitle {left:85%;top:-7px;}
   .contactformobile {width:100%;left:0%!important}
   .mb-5 { margin-bottom:0rem!important}
   .heading-logo {display:none}
+  .strikerstitle {position: relative;left:103%;}
+  .contactstrikersfix{left:115%!important;bottom:3px}
+  .contactinstallfix{left:76%!important}
+  #mainNav .navbar-toggler {position:relative;left:-6px}
+  .contactbannermobile {background-position-x:-472px}
+
+  
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 650px) {
+@media only screen and (min-width: 650px) and (max-width:767px){
 
 
   .navbar-brand{ right:-1%!important;top:12px}
@@ -10931,13 +10960,101 @@ position:relative;
   .servicediv2 {width:103%!important}
   .paddownservices{padding-top:156%!important;}
   .paddownservices2{padding-top:33%!important}
-  .serviceSlide {    width: 100%!important;height: 300px!important;position: relative!important;left: 6px!important; top:-142px;}
+  .serviceSlide {    width: 57%!important;height: 300px!important;position: relative!important;left: 6px!important; top:-142px;}
   .bannertextHS { left:0%;font-size:86%;width:420px;top:39%}
   .HSContent{width:103%}
   .HSbottombanner img {top:82px;}
   .sitesafe img {top:-37px!important;right:0%!important}
   .strikersheading { right:270px!important;top:28px; bottom:12px;font-size:36px}
   .installationheading {left:77%;font-size:36px;}
+  .contactcircle{width:100px;height:100px; left:2%;top:51px;}
+  .contactcircle1{width:100px;height:100px; left:10%!important;top:53px;}
+  .contactcircle2{width:100px;height:100px; left:17%!important;top:51px;}
+  .whiteicons{ padding-left:18%;padding-top:18%}
+  #emaildesc{top:97px;left:269px;}
+  #emaildesc  p{width:50px; right:16px;font-size:100%; top:1px;}
+  #phonedesc{top:-26px;left:104px;}
+  #phonedesc p {left:2px;}
+  #hoursdesc{left:406px;width:110px;bottom:107px;}
+  #hoursdesc h3 {position: relative; left:14px}
+  #quotemessage{padding-top:0%}
+  form{ width:100%}
+  #customername {left:29%;top:12px; }
+  #name{left:.5%;top:13px;width:361px}
+  #customeremail {left:30.5%;top:20px}
+  #email {left:0.5%;bottom:-16px;width:361px;}
+  #customermessage {left:30.5%;bottom:-25px;}
+  #message {left:.5%;bottom:-29px;width:361px;}
+  #submit {position:relative;left:80px;top:60px;}
+  .footer{height:500px;}
+  small {font-size:110%;position:relative;bottom:143px;}
+  .contactfooter{bottom:110px!important;}
+  .emailbreak {display:block; top:-14px!important;left:-18px;}
+  .allegion {left:10px!important;top:-5px!important}
+  .tradco{left:-2px!important}
+  .madinoz{top:-4px!important;}
+  .bg-banner {background-position-x: -13px;background-position-y:136px;}
+  .contactbanner{left:5%!important;top:250px!important}
+  .heading-logo{right:125px;}
+  .contactnavhamburger {position:relative;right:106px;top:3px}
+  .contactTitle {left:-35%;top:-2px;}
+  .contactformobile {width:100%;left:0%!important}
+  .mb-5 { margin-bottom:0rem!important}
+  .heading-logo {display:none}
+  .bg-bannercontact{position:relative;right:0px;}
+  .strikersheading{right:120px!important;top:9px}
+  .contactnavhamburger{left:-189px;top:3px!important;}
+  .bg-bannercontact{background-position-x:-237px;}
+  .contactcircle {left:21%}
+  .contactcircle1 {left:33%!important}
+  .contactcircle2 {left:43%!important}
+  #mainNav .navbar-toggler{position:relative;left:-75px;}
+
+  #emaildesc h3 {position:relative;top:64px;right:297px;}
+  .strikerstitle {left:21%}
+  
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width:999px  ) {
+  
+  .navbar-brand{ right:-1%!important;top:12px}
+  .titlecolor{position:relative;left:-2%;bottom:1px;}
+  .navbar-toggler{position:relative;bottom:-10px;left:-76px}
+  .bannertext h1{position:relative;font-size: 200%!important;width:317px;}
+  .bannertext{left:0%; width:350px;}
+  .indexbanner{height:440px;}
+  .oneofone{width:90%;}
+  .oneofone .aboutheading{font-size:166%}
+  .w3-content{width:40%!important;height:27%!important}
+  .w3-content .mySlides1{position:relative;bottom:9%}
+  .w3-content .mySlides2{position: relative; right:12px;}
+  .w3-content .mySlides3{position:relative;right:20%}
+  .slidecontainer3{position: relative; left:37%!important;}
+  .slidecontainer3 .one {position:relative;left:20px;}
+  .slidecontainer1 .two{  position: relative!important;bottom:35px!important;}
+  .slidecontainer2 .three{position: relative!important;right:20px!important;}
+  .oneoffive img{height:80%;width:80%}
+  .oneoffive h4{font-size:80%;position:relative;right:10%}
+  .oneoffive .retroheading {position: relative; right:19% }
+  .oneoffive .installheading { position:relative;right:11%}
+  .contactpaddup{position: relative; bottom:18%}
+  #map{height:150px;width:100%; position:relative;left:0%!important;bottom:10px!important; }
+  .services h1 {padding-top:0%}
+  .facebook{bottom: 0px;}
+  .copyright small {position:relative;bottom:8px!important;}
+  .retrofitdiv1 {width:100%!important;float:none;left:8%;top:22%}
+  .servicediv1 {width:103%!important}
+  .servicediv2 {width:103%!important}
+  .paddownservices{padding-top:156%!important;}
+  .paddownservices2{padding-top:33%!important}
+  .serviceSlide {    width: 59%!important;height: 300px!important;position: relative!important;left: 6px!important; top:-142px;}
+  .bannertextHS { left:0%;font-size:86%;width:420px;top:39%}
+  .HSContent{width:103%}
+  .HSbottombanner img {top:82px;}
+  .sitesafe img {top:-37px!important;right:0%!important}
+  .strikersheading { right:270px!important;top:28px; bottom:12px;font-size:36px}
+  .installationheading {left:90%;font-size:36px;}
   .contactcircle{width:100px;height:100px; left:2%;top:51px;}
   .contactcircle1{width:100px;height:100px; left:10%!important;top:53px;}
   .contactcircle2{width:100px;height:100px; left:17%!important;top:51px;}
@@ -10966,30 +11083,85 @@ position:relative;
   .madinoz{top:-4px!important;}
   .bg-banner {background-position-x: -13px;background-position-y:136px;}
   .contactbanner{left:5%!important;top:250px!important}
-  .heading-logo{right:140px;}
-  .contactnavhamburger {position:relative;right:106px;top:3px}
+  .heading-logo{right:110px;}
+  .contactnavhamburger {position:relative;left:-145px!important;top:6px!important}
   .contactTitle {left:-69%;top:-3px;}
   .contactformobile {width:100%;left:0%!important}
   .mb-5 { margin-bottom:0rem!important}
   .heading-logo {display:none}
   .bg-bannercontact{position:relative;right:0px;}
   .strikersheading{right:120px!important;top:9px}
-  .contactnavhamburger{left:-189px;top:3px!important;}
-  .bg-bannercontact{background-position-x:-237px;}
+  .bg-bannercontact{background-position-x:-205px;}
   .contactcircle {left:21%}
   .contactcircle1 {left:33%!important}
   .contactcircle2 {left:43%!important}
   #hoursdesc{left:482px}
   #emaildesc{left:329px}
   #emaildesc h3 {position:relative;top:64px;right:297px;}
-  contact
+  .strikerstitle { left:41%}
+  .contactbanner{top:190px!important}
+  #mainNav .navbar-toggler{left:-44px;top:12px}
+  .contactstrikersfix{left:-41%!important;top:-1.5px}
+  .contactinstallfix{left:-41%!important}
+}
+@media only screen and (min-width: 1000px) and (max-width:1300px) {
+.titlecolor{position:relative;left:-30%;top:0px;}
+.navbar-expand-lg .navbar-collapse{position:relative;top:1px;right:178px;}
+.bg-bannercontact{left:106px;width:1036px!important}
+#phonedesc{left:195px;}
+#emaildesc{left:410px}
+#hoursdesc{left:589px;}
+.strikerstitle{left:-75px;}
+.footer{height:300px}
+.contactTitle{left:-60%}
+.heading-logo {right:165px}
+#map {width:400px;right:9%;bottom:22%}
+.facebook {left:55px;}
+.HSbottombanner img {top:202px}
+.sitesafe img {right:0%;top:76px;}
+.serviceSlide {bottom:-15px!important;left:-2%!important}
+.contactlogo { right:420px!important;display:none;}
+.contactstrikersfix {left:-275px}
+.contactinstallfix{left:-91%}
+.contactcircle1 {left:251px!important}
+.contactcircle2 {left:369px!important}
+.contactcircle {left:14%}
+#emaildesc{left:-289px}
+#phonedesc{left:-24px}
+#hoursdesc {left:633px}
+.contactblurb{right:32px;top:-21px}
+.contactmenuoptions {top:-2px!important;right:350px!important}
+.HSmenuoptions{right:160px!important}
+
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 1200px) and (max-width:1300px) {
+  #phonedesc {left:226px;}
+  #emaildesc {left:461px;}
+  #hoursdesc {left:663px;}
+  .strikerstitle {left:-45%}
+  .contactTitle{left:-82%;top:-2px}
+  .navbar-expand-lg .navbar-collapse{position:relative;top:14px;right:150px;}
+
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
-
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1301px) {
+  .heading-logo{display:block ;}
+  .strikerstitle{left:-2%}
+  .titlecolor{left:-42%}
+  .bannertext{left:9%}
+  .footer{height:300px}
+  .navbar-expand-lg .navbar-collapse{position:relative;top:4px;}
+  .Cstrikersfix{left:17px}
+  #phonedesc{left:26px;}
+#emaildesc{left:-199px}
+#hoursdesc{left:648px;}
+.bg-bannercontact{right:-110px}
+.contactlogo {right:114px;}
+.contactTitle{left:-44%;top:-2px}
+.fixcontactnav {right:60px}
+#map {bottom:22%}
+.facebook{left:2%}
+
+}
