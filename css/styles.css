@@ -10934,7 +10934,7 @@ position:relative;
 
 
   .navbar-brand{ right:-1%!important;top:12px}
-  .titlecolor{position:relative;left:-27%;bottom:1px;}
+  .titlecolor{position:relative;left:-6%;bottom:1px;}
   .navbar-toggler{position:relative;bottom:-10px;right:103px}
   .bannertext h1{position:relative;font-size: 200%!important;width:317px;}
   .bannertext{left:0%; width:350px;}
@@ -11011,7 +11011,7 @@ position:relative;
   .contactcircle {left:21%}
   .contactcircle1 {left:33%!important}
   .contactcircle2 {left:43%!important}
-  #mainNav .navbar-toggler{position:relative;left:-75px;}
+  #mainNav .navbar-toggler{position:relative;left:-41px;}
 
   #emaildesc h3 {position:relative;top:64px;right:297px;}
   .strikerstitle {left:21%}
@@ -11106,6 +11106,10 @@ position:relative;
   #mainNav .navbar-toggler{left:-44px;top:12px}
   .contactstrikersfix{left:-41%!important;top:-1.5px}
   .contactinstallfix{left:-41%!important}
+}
+@media only screen and (min-width: 991px) and (max-width:999px) {
+  .strikerstitle{left:3%!important}
+
 }
 @media only screen and (min-width: 1000px) and (max-width:1300px) {
 .titlecolor{position:relative;left:-30%;top:0px;}
