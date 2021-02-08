@@ -11114,7 +11114,9 @@ position:relative;
   .contactinstallfix{left:-41%!important}
 }
 @media only screen and (min-width: 991px) and (max-width:999px) {
-  .strikerstitle{left:3%!important}
+  .strikerstitle{left:-65%!important}
+  .contactinstallfix{left:-45%!important}
+  .contactmenuoptions{position:relative;top:8px!important;right:148px;}
 
 }
 @media only screen and (min-width: 1000px) and (max-width:1300px) {
@@ -11146,6 +11148,9 @@ position:relative;
 .contactmenuoptions {top:-2px!important;right:350px!important}
 .HSmenuoptions{right:160px!important}
 
+}
+@media only screen and (min-width: 1200px) and (max-width:1300px) {
+  .strikerstitle{left:-134%!important}
 }
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 1200px) and (max-width:1300px) {
