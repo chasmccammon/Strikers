@@ -53,7 +53,7 @@ html {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   overflow-y: scroll;
-  overflow-x: hidden ;
+  overflow-x:hidden ;
 }
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
@@ -10889,6 +10889,7 @@ position:relative;
   .contactcircle2{width:100px;height:100px; left:17%!important;top:51px;}
   .whiteicons{ padding-left:18%;padding-top:18%}
   #emaildesc{top:97px;left:16px;}
+  #emaildesc h3{position:relative;left:-298px;top:56px;}
   #emaildesc  p{width:50px; right:16px;font-size:100%; top:1px;}
   #phonedesc{top:-26px;left:134px;}
   #phonedesc p {left:2px;}
@@ -10981,9 +10982,9 @@ position:relative;
   .contactcircle1{width:100px;height:100px; left:10%!important;top:53px;}
   .contactcircle2{width:100px;height:100px; left:17%!important;top:51px;}
   .whiteicons{ padding-left:18%;padding-top:18%}
-  #emaildesc{top:97px;left:269px;}
+  #emaildesc{top:97px;left:104px;}
   #emaildesc  p{width:50px; right:16px;font-size:100%; top:1px;}
-  #phonedesc{top:-26px;left:104px;}
+  #phonedesc{top:-26px;left:269px;}
   #phonedesc p {left:2px;}
   #hoursdesc{left:406px;width:110px;bottom:107px;}
   #hoursdesc h3 {position: relative; left:14px}
@@ -11011,7 +11012,7 @@ position:relative;
   .contactformobile {width:100%;left:0%!important}
   .mb-5 { margin-bottom:0rem!important}
   .heading-logo {display:none}
-  .bg-bannercontact{position:relative;right:0px;}
+  .bg-bannercontact{position:relative;right:0px;width:1000px;}
   .strikersheading{right:120px!important;top:9px}
   .contactnavhamburger{left:-189px;top:3px!important;}
   .bg-bannercontact{background-position-x:-237px;}
@@ -11099,7 +11100,7 @@ position:relative;
   .contactformobile {width:100%;left:0%!important}
   .mb-5 { margin-bottom:0rem!important}
   .heading-logo {display:none}
-  .bg-bannercontact{position:relative;right:0px;}
+  .bg-bannercontact{position:relative;right:0px;width:1300px;}
   .strikersheading{right:120px!important;top:9px}
   .bg-bannercontact{background-position-x:-205px;}
   .contactcircle {left:21%}
@@ -11115,8 +11116,8 @@ position:relative;
   .contactinstallfix{left:-41%!important}
 }
 @media only screen and (min-width: 991px) and (max-width:999px) {
-  .strikerstitle{left:-65%!important}
-  .contactinstallfix{left:-45%!important}
+  .contactstrikerstitle{left:15%!important}
+  .contactinstallfix{left:7%!important}
   .contactmenuoptions{position:relative;top:8px!important;right:148px;}
 
 }
@@ -11138,7 +11139,7 @@ position:relative;
 .serviceSlide {bottom:-15px!important;left:-2%!important}
 .contactlogo { right:420px!important;display:none;}
 .contactstrikersfix {left:-275px}
-.contactinstallfix{left:-91%}
+.contactinstallfix{left:10%}
 .contactcircle1 {left:251px!important}
 .contactcircle2 {left:369px!important}
 .contactcircle {left:14%}
@@ -11146,21 +11147,26 @@ position:relative;
 #phonedesc{left:-24px}
 #hoursdesc {left:633px}
 .contactblurb{right:32px;top:-21px}
-.contactmenuoptions {top:-2px!important;right:350px!important}
+.contactmenuoptions {top:-2px!important;right:50px!important}
 .HSmenuoptions{right:160px!important}
+.contactstrikerstitle{left:10%!important}
 
 }
 @media only screen and (min-width: 1200px) and (max-width:1300px) {
-  .strikerstitle{left:-134%!important}
+  .strikerstitle{left:40%!important}
+  .contactinstallfix {left:30%!important}
+  .contactmenuoptions {top:-2px!important;right:5%!important}
+
 }
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 1200px) and (max-width:1300px) {
-  #phonedesc {left:226px;}
-  #emaildesc {left:461px;}
-  #hoursdesc {left:663px;}
+  #phonedesc {left:-22px;}
+  #emaildesc {left:-226px;}
+  #hoursdesc {left:6px;}
   .strikerstitle {left:-45%}
   .contactTitle{left:-82%;top:-2px}
   .navbar-expand-lg .navbar-collapse{position:relative;top:14px;right:150px;}
+
 
 }
 
