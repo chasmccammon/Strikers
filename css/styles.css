@@ -10651,18 +10651,19 @@ img {vertical-align: middle;}
 }
 .HSbottombanner img {
   height:120px;
-  width: 90%;
+  width: 50%;
   position:relative;
   top:250px;
+  left:17%;
 }
 
 .sitesafe img {
   height:120px;
-  width:10%;
+  width:14%;
   float:right;
   position:relative;
   top:130px;
-  right:5%;
+  right:19%;
 }
 .indexbanner {
   background-image: url(/assets/img/possibleBanner1.jpg);
@@ -10783,8 +10784,8 @@ position:relative;
   .contactus{bottom:50px;}
   .bannertextHS { left:0%;font-size:86%;width:350px;top:39%}
   .HSContent{width:103%}
-  .HSbottombanner img {top:82px;}
-  .sitesafe img {top:-37px!important;right:0%!important}
+  .HSbottombanner img {top:59px;}
+  .sitesafe img {top:-55px!important;right:19%!important}
   .strikersheading { right:48%!important;top:0px;}
   .installationheading {right:11%}
   .contactcircle{width:100px;height:100px; left:-2%;top:51px;}
@@ -10880,8 +10881,8 @@ position:relative;
   .serviceSlide {    width: 100%!important;height: 300px!important;position: relative!important;left: 6px!important; top:-142px;}
   .bannertextHS { left:0%;font-size:86%;width:420px;top:39%}
   .HSContent{width:103%}
-  .HSbottombanner img {top:82px;}
-  .sitesafe img {top:-37px!important;right:0%!important}
+  .HSbottombanner img {top:76px;}
+  .sitesafe img {top:-46px!important;right:19%!important; width:14%!important}
   .strikersheading { right:270px!important;top:28px; bottom:12px;font-size:36px}
   .installationheading {left:77%;font-size:36px;}
   .contactcircle{width:100px;height:100px; left:2%;top:51px;}
@@ -10975,7 +10976,7 @@ position:relative;
   .bannertextHS { left:0%;font-size:86%;width:420px;top:39%}
   .HSContent{width:103%}
   .HSbottombanner img {top:82px;}
-  .sitesafe img {top:-37px!important;right:0%!important}
+  .sitesafe img {top:-37px!important;right:18%!important}
   .strikersheading { right:270px!important;top:28px; bottom:12px;font-size:36px}
   .installationheading {left:77%;font-size:36px;}
   .contactcircle{width:100px;height:100px; left:2%;top:51px;}
@@ -11062,8 +11063,8 @@ position:relative;
   .serviceSlide {    width: 59%!important;height: 300px!important;position: relative!important;left: 6px!important; top:-142px;}
   .bannertextHS { left:0%;font-size:86%;width:420px;top:39%}
   .HSContent{width:103%}
-  .HSbottombanner img {top:82px;}
-  .sitesafe img {top:-37px!important;right:0%!important}
+  .HSbottombanner img {top:122px;}
+  .sitesafe img {top:-10px!important;right:17%!important}
   .strikersheading { right:270px!important;top:28px; bottom:12px;font-size:36px}
   .installationheading {left:90%;font-size:36px;}
   .contactcircle{width:100px;height:100px; left:2%;top:51px;}
@@ -11134,7 +11135,7 @@ position:relative;
 #map {width:400px;right:9%;bottom:22%}
 .facebook {left:55px;}
 .HSbottombanner img {top:202px}
-.sitesafe img {right:0%;top:76px;}
+.sitesafe img {right:18%;top:76px;}
 .serviceSlide {bottom:-15px!important;left:-2%!important}
 .contactlogo { right:420px!important;display:none;}
 .contactstrikersfix {left:-275px}
