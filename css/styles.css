@@ -10912,7 +10912,7 @@ position:relative;
   .allegion {left:10px!important;top:-5px!important}
   .tradco{left:-2px!important}
   .madinoz{top:-4px!important;}
-  .bg-banner {background-position-x: -477px;background-position-y:136px; width:416px;}
+  .bg-banner {background-position-x: -477px;background-position-y:136px; width:650px;overflow:hidden}
   .contactbanner{left:5%!important;top:250px!important}
   .heading-logo{right:140px;}
   .contactnavhamburger {position:relative;left:-109px!important;top:22px}
@@ -11020,7 +11020,7 @@ position:relative;
   .contactcircle {left:21%}
   .contactcircle1 {left:33%!important}
   .contactcircle2 {left:43%!important}
-  #mainNav .navbar-toggler{position:relative;left:-41px;}
+  #mainNav .navbar-toggler{position:relative;left:47px;}
 
   #emaildesc h3 {position:relative;top:64px;right:297px;}
   .strikerstitle {left:21%}
