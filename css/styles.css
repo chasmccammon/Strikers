@@ -10931,6 +10931,14 @@ position:relative;
   
 
 }
+@media only screen and (min-width: 412px) and (max-width:518px){
+
+  .titlecolor{left:97%!important;bottom:0px!important}
+  .strikersheading{left:162%!important}
+  #mainNav .navbar-toggler{left:-28px!important;top:12px!important}
+  
+
+}
 @media only screen and (min-width: 519px) and (max-width:649px){
 .titlecolor{right:0px;top:1px}
 .strikerstitle{left:130%}
