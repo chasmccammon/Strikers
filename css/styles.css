@@ -10729,8 +10729,8 @@ position:relative;
 
   }
   .emailbreak {
-    display:inline;
-    bottom:40px;left:58px;
+    display:inline;bottom:37px!important;left:50px;
+
   }
   #hoursdesc h3 {
     position:relative;
@@ -10889,12 +10889,12 @@ position:relative;
   .contactcircle1{width:100px;height:100px; left:10%!important;top:53px;}
   .contactcircle2{width:100px;height:100px; left:17%!important;top:51px;}
   .whiteicons{ padding-left:18%;padding-top:18%}
-  #emaildesc{top:97px;left:16px;}
+  #emaildesc{top:106px;left:16px;}
   #emaildesc h3{position:relative;left:-298px;top:56px;}
-  #emaildesc  p{width:50px; right:16px;font-size:100%; top:1px;}
-  #phonedesc{top:-26px;left:134px;}
+  #emaildesc  p{width:50px; right:16px;font-size:100%; top:-6px;}
+  #phonedesc{top:-7px;left:157px;}
   #phonedesc p {left:2px;}
-  #hoursdesc{left:258px;width:110px;bottom:107px;}
+  #hoursdesc{left:282px;width:110px;bottom:81px;}
   #hoursdesc h3 {position: relative; left:14px}
   #quotemessage{padding-top:0%}
   form{ width:100%}
@@ -10908,7 +10908,7 @@ position:relative;
   .footer{height:500px;}
   small {font-size:110%;position:relative;bottom:143px;}
   .contactfooter{bottom:110px!important;}
-  .emailbreak {display:block; top:-14px!important;left:-18px;}
+  .emailbreak {display:inline;bottom:37px!important;left:50px;}
   .allegion {left:10px!important;top:-5px!important}
   .tradco{left:-2px!important}
   .madinoz{top:-4px!important;}
@@ -10926,9 +10926,7 @@ position:relative;
   #mainNav .navbar-toggler {position:relative;left:-6px}
   .contactbannermobile {background-position-x:-472px}
   .indexbanner{background-position-x:0px}
-
-
-  
+  .emailbreak{display:inline;left:-15px;top:-20px!important}  
 
 }
 @media only screen and (min-width: 412px) and (max-width:518px){
@@ -10999,11 +10997,11 @@ position:relative;
   .contactcircle1{width:100px;height:100px; left:10%!important;top:53px;}
   .contactcircle2{width:100px;height:100px; left:17%!important;top:51px;}
   .whiteicons{ padding-left:18%;padding-top:18%}
-  #emaildesc{top:97px;left:104px;}
+  #emaildesc{top:104px;left:116px;}
   #emaildesc  p{width:50px; right:16px;font-size:100%; top:1px;}
-  #phonedesc{top:-26px;left:269px;}
+  #phonedesc{top:-1px;left:269px;}
   #phonedesc p {left:2px;}
-  #hoursdesc{left:406px;width:110px;bottom:107px;}
+  #hoursdesc{left:406px;width:110px;bottom:71px;}
   #hoursdesc h3 {position: relative; left:14px}
   #quotemessage{padding-top:0%}
   form{ width:100%}
@@ -11017,7 +11015,7 @@ position:relative;
   .footer{height:500px;}
   small {font-size:110%;position:relative;bottom:143px;}
   .contactfooter{bottom:110px!important;}
-  .emailbreak {display:block; top:-14px!important;left:-18px;}
+  .emailbreak {display:inline;bottom:37px!important;left:50px;}
   .allegion {left:10px!important;top:-5px!important}
   .tradco{left:-2px!important}
   .madinoz{top:-4px!important;}
@@ -11040,6 +11038,7 @@ position:relative;
 
   #emaildesc h3 {position:relative;top:64px;right:297px;}
   .strikerstitle {left:21%}
+  .emailbreak{display:inline;top:-15px!important;left:-16px;}
   
 }
 
@@ -11087,10 +11086,10 @@ position:relative;
   .contactcircle1{width:100px;height:100px; left:10%!important;top:53px;}
   .contactcircle2{width:100px;height:100px; left:17%!important;top:51px;}
   .whiteicons{ padding-left:18%;padding-top:18%}
-  #emaildesc{top:154px;left:-152px;}
+  #emaildesc{top:164px;left:-144px;}
   #emaildesc p {right:18px}
-  #phonedesc{top:32px;left:323px;}
-  #hoursdesc{left:430px;width:110px;bottom:51px;}
+  #phonedesc{top:60px;left: 332px;}
+  #hoursdesc{left:438px;width:110px;bottom:12px;}
   #hoursdesc p {left:75px;}
   #quotemessage{padding-top:0%}
   form{ width:100%}
@@ -11104,7 +11103,7 @@ position:relative;
   .footer{height:500px;}
   small {font-size:110%;position:relative;bottom:143px;}
   .contactfooter{bottom:110px!important;}
-  .emailbreak {display:block; top:-14px!important;left:-18px;}
+  .emailbreak {display:inline;bottom:16px!important;left:-19px;}
   .allegion {left:10px!important;top:-5px!important}
   .tradco{left:-2px!important}
   .madinoz{top:-4px!important;}
@@ -11161,7 +11160,7 @@ position:relative;
 .contactcircle {left:14%}
 #emaildesc{left:-289px}
 #phonedesc{left:-24px}
-#hoursdesc {left:633px}
+#hoursdesc {left:633px;top:7px}
 .contactblurb{right:32px;top:-21px}
 .contactmenuoptions {top:-2px!important;right:50px!important}
 .HSmenuoptions{right:160px!important}
@@ -11180,14 +11179,14 @@ position:relative;
   .contactstrikerstitle { position:relative;left:44%!important}
   #emaildesc{left:-262px!important}
   #phonedesc {}
-  #hoursdesc {left:633px!important}
+  #hoursdesc {left:633px!important;top:7px}
 
 }
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 1200px) and (max-width:1300px) {
   #phonedesc {left:-22px;}
   #emaildesc {left:-226px;}
-  #hoursdesc {left:6px;}
+  #hoursdesc {left:6px;top:7px}
   .strikerstitle {left:-45%}
   .contactTitle{left:-82%;top:-2px}
   .navbar-expand-lg .navbar-collapse{position:relative;top:14px;right:150px;}
@@ -11206,7 +11205,7 @@ position:relative;
   .Cstrikersfix{left:17px}
   #phonedesc{left:26px;}
 #emaildesc{left:-199px}
-#hoursdesc{left:648px;}
+#hoursdesc{left:648px;top:7px}
 .bg-bannercontact{right:-110px}
 .contactlogo {right:114px;}
 .contactTitle{left:-44%;top:-2px}
