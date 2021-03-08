@@ -10354,7 +10354,7 @@ height:30px;
 }
 .paddownservices
 {
-  padding-top: 50%;
+  padding-top: 35%;
 }
 .contactbanner
 {
@@ -10408,6 +10408,15 @@ height:30px;
 .strikerstitle {
   position: relative;
   left:85%;
+}
+.contactstrikerstitlenew {
+  position: relative;
+  left:85%;
+}
+.contacttitlecolor
+{
+  color: #1FA6D6;
+  position:relative
 }
 #contacticons
 {
@@ -10667,7 +10676,7 @@ img {vertical-align: middle;}
 }
 .indexbanner {
   background-image: url(/assets/img/possibleBanner1.jpg);
-  height:600px;
+  height:550px;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -10712,10 +10721,39 @@ position:relative;
   {
     position:relative;
   }
+  .paddownlocks
+  {
+    position:relative;
+    top:35%;
+  }
+  .paddownhardware
+  {
+    position:relative;
+
+    top:5%;
+  }
   .contactus {
     position:relative;
 
   }
+  .servicesoverwrite
+  {
+    background-color: white!important; 
+    color:black!important; 
+    border-color:white!important;
+    font-family: Montserrat;
+    font-weight: 700; color: #09435B!important;
+    position:relative;
+    top:13%!important;
+    left:6%
+  }
+  .dropdown-item{
+    font-weight: 700!important;
+    color:#09435B!important
+  }
+  
+  /* Show the dropdown menu on hover */
+ 
   .HSContent{ 
     position:relative;
   }
@@ -10834,6 +10872,10 @@ position:relative;
   .contactinstallfix {left:54%!important;font-size:2.5rem}
   .contactbannermobile{background-position-x: -238px;background-position-y:77px;}
   .indexbanner{background-position-x:-366px}
+  .servicesoverwrite{left: -4% !important;}
+  .contactstrikerstitlenew{left:95%}
+  .contacttitlecolor{left:64%;top : -29px}
+
 
   
 
@@ -10927,6 +10969,8 @@ position:relative;
   .contactbannermobile {background-position-x:-472px}
   .indexbanner{background-position-x:0px}
   .emailbreak{display:inline;left:-15px;top:-20px!important}  
+  .servicesoverwrite{left: -4% !important;}
+
 
 }
 @media only screen and (min-width: 412px) and (max-width:518px){
@@ -10934,6 +10978,8 @@ position:relative;
   .titlecolor{left:27%!important;bottom:-24px!important}
   .strikerstitle{left:162%!important;top:-16px}
   #mainNav .navbar-toggler{left:-240px!important;top:34px!important}
+    .servicesoverwrite{left: -2% !important;}
+
   
 
 }
@@ -10942,6 +10988,8 @@ position:relative;
   .titlecolor{left:95%!important;top:5px!important}
   .strikerstitle{left:160%!important;top:5px}
   #mainNav .navbar-toggler{left:-35px!important;top:16px!important}
+    .servicesoverwrite{left: -4% !important;}
+
   
 
 }
@@ -10949,6 +10997,8 @@ position:relative;
 .titlecolor{right:0px;top:1px}
 .strikerstitle{left:130%}
 #mainNav .navbar-toggler {position:relative;left:-6px;top:10px}
+.servicesoverwrite{left: -4% !important;}
+
 
 }
 
@@ -11039,6 +11089,8 @@ position:relative;
   #emaildesc h3 {position:relative;top:64px;right:297px;}
   .strikerstitle {left:21%}
   .emailbreak{display:inline;top:-15px!important;left:-16px;}
+  .servicesoverwrite{left: -4% !important;}
+
   
 }
 
@@ -11127,6 +11179,8 @@ position:relative;
   #mainNav .navbar-toggler{left:-44px;top:12px}
   .contactstrikersfix{left:-41%!important;top:-1.5px}
   .contactinstallfix{left:-41%!important}
+  .servicesoverwrite{left: -2% !important;}
+
 }
 @media only screen and (min-width: 991px) and (max-width:999px) {
   .contactstrikerstitle{left:15%!important}
@@ -11134,6 +11188,7 @@ position:relative;
   .contactmenuoptions{position:relative;top:8px!important;right:148px;}
   .strikerstitle{left:1%}
   .dropnav{position:relative;top:11px;}
+  .servicesoverwrite{left: -4% !important;}
 
 }
 @media only screen and (min-width: 1000px) and (max-width:1300px) {
