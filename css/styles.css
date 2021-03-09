@@ -10659,19 +10659,19 @@ img {vertical-align: middle;}
   bottom:15%;
 }
 .HSbottombanner img {
-  height:100px;
-  width: 40%;
+  height:90px;
+  width: 33%;
   position:relative;
   top:-44px;
-  left:17%;
+  left:25%;
 }
 
 .sitesafe img {
-  height:120px;
+  height:113px;
   width:14%;
   float:right;
   position:relative;
-  top:-155px;
+  top:-151px;
   right:28%;
 }
 .indexbanner {
@@ -10875,6 +10875,9 @@ position:relative;
   .servicesoverwrite{left: -4% !important;}
   .contactstrikerstitlenew{left:95%}
   .contacttitlecolor{left:64%;top : -29px}
+  .CSfix{ position:relative;left:88%;top:15px}
+  .Cinstallfix{position:relative;left:58%!important;top:-11px}
+  .buttonmove{position:relative;left:-20%;top:26px}
 
 
   
@@ -10932,7 +10935,7 @@ position:relative;
   .contactcircle2{width:100px;height:100px; left:17%!important;top:51px;}
   .whiteicons{ padding-left:18%;padding-top:18%}
   #emaildesc{top:106px;left:16px;}
-  #emaildesc h3{position:relative;left:-298px;top:56px;}
+  #emaildesc h3{position:relative;top:-8px;left:6px}
   #emaildesc  p{width:50px; right:16px;font-size:100%; top:-6px;}
   #phonedesc{top:-7px;left:157px;}
   #phonedesc p {left:2px;}
@@ -10970,6 +10973,8 @@ position:relative;
   .indexbanner{background-position-x:0px}
   .emailbreak{display:inline;left:-15px;top:-20px!important}  
   .servicesoverwrite{left: -4% !important;}
+    .CSfix{ position:relative;left:163%;top:-8px}
+
 
 
 }
