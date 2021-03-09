@@ -10785,6 +10785,12 @@ position:relative;
   }
  
 /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width:400px) {
+  #map{top:-55%}
+  .copyright{padding-top:110%!important}
+
+}
+
 @media only screen and (max-width:412px) {
 
   .navbar-brand{position:relative;right:39%!important} 
