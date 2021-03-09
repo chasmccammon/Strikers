@@ -10822,8 +10822,8 @@ position:relative;
   .contactus{bottom:50px;}
   .bannertextHS { left:0%;font-size:86%;width:350px;top:39%}
   .HSContent{width:103%}
-  .HSbottombanner img {top:59px;}
-  .sitesafe img {top:-55px!important;right:19%!important}
+  .HSbottombanner img {top:-120px;}
+  .sitesafe img {top:-224px!important;right:23%!important}
   .strikersheading { right:48%!important;top:0px;}
   .installationheading {right:11%}
   .contactcircle{width:100px;height:100px; left:-2%;top:51px;}
@@ -10926,8 +10926,8 @@ position:relative;
   .serviceSlide {    width: 100%!important;height: 300px!important;position: relative!important;left: 6px!important; top:-142px;}
   .bannertextHS { left:0%;font-size:86%;width:420px;top:39%}
   .HSContent{width:103%}
-  .HSbottombanner img {top:76px;}
-  .sitesafe img {top:-46px!important;right:19%!important; width:14%!important}
+  .HSbottombanner img {top:-155px;}
+  .sitesafe img {top:-260px!important;right:25%!important; width:14%!important}
   .strikersheading { right:270px!important;top:28px; bottom:12px;font-size:36px}
   .installationheading {left:77%;font-size:36px;}
   .contactcircle{width:100px;height:100px; left:2%;top:51px;}
@@ -10973,7 +10973,7 @@ position:relative;
   .indexbanner{background-position-x:0px}
   .emailbreak{display:inline;left:-15px;top:-20px!important}  
   .servicesoverwrite{left: -4% !important;}
-    .CSfix{ position:relative;left:163%;top:-8px}
+    .CSfix{ position:relative;left:132%;top:1px}
 
 
 
@@ -10984,6 +10984,8 @@ position:relative;
   .strikerstitle{left:162%!important;top:-16px}
   #mainNav .navbar-toggler{left:-240px!important;top:34px!important}
     .servicesoverwrite{left: -2% !important;}
+    .CSfix{ position:relative;left:163%;top:-10px}
+
 
   
 
@@ -11044,8 +11046,8 @@ position:relative;
   .serviceSlide {    width: 57%!important;height: 300px!important;position: relative!important;left: 6px!important; top:-142px;}
   .bannertextHS { left:0%;font-size:86%;width:420px;top:39%}
   .HSContent{width:103%}
-  .HSbottombanner img {top:82px;}
-  .sitesafe img {top:-37px!important;right:18%!important}
+  .HSbottombanner img {top:-50px;}
+  .sitesafe img {top:-155px!important;right:26%!important}
   .strikersheading { right:270px!important;top:28px; bottom:12px;font-size:36px}
   .installationheading {left:77%;font-size:36px;}
   .contactcircle{width:100px;height:100px; left:2%;top:51px;}
@@ -11095,6 +11097,8 @@ position:relative;
   .strikerstitle {left:21%}
   .emailbreak{display:inline;top:-15px!important;left:-16px;}
   .servicesoverwrite{left: -4% !important;}
+  .Cinstallfix{position: relative;left:-18%}
+
 
   
 }
@@ -11135,8 +11139,8 @@ position:relative;
   .serviceSlide {    width: 59%!important;height: 300px!important;position: relative!important;left: 6px!important; top:-142px;}
   .bannertextHS { left:0%;font-size:86%;width:420px;top:39%}
   .HSContent{width:103%}
-  .HSbottombanner img {top:122px;}
-  .sitesafe img {top:-10px!important;right:17%!important}
+  .HSbottombanner img {top:-50px;}
+  .sitesafe img {top:-153px!important;right:26%!important}
   .strikersheading { right:270px!important;top:28px; bottom:12px;font-size:36px}
   .installationheading {left:90%;font-size:36px;}
   .contactcircle{width:100px;height:100px; left:2%;top:51px;}
@@ -11185,6 +11189,8 @@ position:relative;
   .contactstrikersfix{left:-41%!important;top:-1.5px}
   .contactinstallfix{left:-41%!important}
   .servicesoverwrite{left: -2% !important;}
+  .CSfix{position: relative;left:33%}
+
 
 }
 @media only screen and (min-width: 991px) and (max-width:999px) {
@@ -11209,8 +11215,8 @@ position:relative;
 .heading-logo {right:165px}
 #map {width:400px;right:9%;bottom:22%}
 .facebook {left:55px;}
-.HSbottombanner img {top:202px}
-.sitesafe img {right:18%;top:76px;}
+.HSbottombanner img {top:-50px}
+.sitesafe img {right:26%;top:-154px;}
 .serviceSlide {bottom:-15px!important;left:-2%!important}
 .contactlogo { right:420px!important;display:none;}
 .contactstrikersfix {left:-275px}
@@ -11225,6 +11231,8 @@ position:relative;
 .contactmenuoptions {top:-2px!important;right:50px!important}
 .HSmenuoptions{right:160px!important}
 .contactstrikerstitle{left:10%!important}
+.CSfix{position: relative;left:-45%}
+
 
 }
 .contactstrikerstitle {
@@ -11240,6 +11248,8 @@ position:relative;
   #emaildesc{left:-262px!important}
   #phonedesc {}
   #hoursdesc {left:633px!important;top:7px}
+  .CSfix{position: relative;left:-45%}
+
 
 }
 /* Large devices (laptops/desktops, 992px and up) */
@@ -11250,6 +11260,7 @@ position:relative;
   .strikerstitle {left:-45%}
   .contactTitle{left:-82%;top:-2px}
   .navbar-expand-lg .navbar-collapse{position:relative;top:14px;right:150px;}
+  .CSfix{position: relative;left:-45%}
 
 
 }
@@ -11273,4 +11284,8 @@ position:relative;
 #map {bottom:22%}
 .facebook{left:2%}
 
+@-moz-document url-prefix(){
+  .moveaboutdownjustforfirefox{position:relative;top:-2px;}
+  }
 }
+
