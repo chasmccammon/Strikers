@@ -10659,10 +10659,10 @@ img {vertical-align: middle;}
   bottom:15%;
 }
 .HSbottombanner img {
-  height:120px;
-  width: 50%;
+  height:100px;
+  width: 40%;
   position:relative;
-  top:250px;
+  top:-44px;
   left:17%;
 }
 
@@ -10671,8 +10671,8 @@ img {vertical-align: middle;}
   width:14%;
   float:right;
   position:relative;
-  top:130px;
-  right:19%;
+  top:-155px;
+  right:28%;
 }
 .indexbanner {
   background-image: url(/assets/img/possibleBanner1.jpg);
