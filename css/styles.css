@@ -10298,10 +10298,7 @@ margin: auto;
 width:70%;
 height:50%;
 }
-.oneofone p {
-  text-align: justify;
-  text-justify: inter-word;
-}
+
 
 .oneoftwo
 {
@@ -10517,7 +10514,7 @@ form {
   color: white;
 
 }
-.retroheading {position:relative;left:-22px;}
+.retroheading {position:relative;left:-10px;}
 
 #submit {
   background-color: #1FA6D6; /* Green */
@@ -11289,6 +11286,8 @@ position:relative;
 .fixcontactnav {right:60px}
 #map {bottom:22%}
 .facebook{left:2%}
+.installheading{position:relative;left:-8px}
+.lockheading{left:-8px}
 
 @-moz-document url-prefix(){
   .moveaboutdownjustforfirefox{position:relative;top:-2px;}
